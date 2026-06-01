@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "status": "queued",
+  "message": "Image generation queued",
+  "project_id": "LARRABIZKER_002",
+  "run_id": "run_20260601_181029",
+  "status_url": "https://raw.githubusercontent.com/inforBAT/results_sites/main/projects/LARRABIZKER_002/runs/run_20260601_181029.json",
+  "result_url": null,
+  "filename": null,
+  "mime_type": null
+}
