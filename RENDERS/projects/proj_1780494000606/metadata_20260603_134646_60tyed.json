@@ -1,0 +1,164 @@
+{
+  "ok": true,
+  "projectId": "proj_1780494000606",
+  "createdAt": "2026-06-03T13:46:46.547Z",
+  "renderPath": "RENDERS/projects/proj_1780494000606/render_20260603_134646_60tyed.jpg",
+  "metadataPath": "RENDERS/projects/proj_1780494000606/metadata_20260603_134646_60tyed.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/proj_1780494000606/render_20260603_134646_60tyed.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "image.jpg",
+  "request": {
+    "projectId": "proj_1780494000606",
+    "inputImageUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780494000606/source_1780494336977.png",
+    "inputType": "sketchup_viewport",
+    "viewType": "interior",
+    "fidelity": "creative",
+    "geometryLock": "ultra_strict",
+    "stylePreset": "warm_minimal",
+    "outputResolution": "2K",
+    "userPrompt": "Materializar esta misma captura sin rediseñar el edificio.",
+    "materialPrompt": "madera y hormigon",
+    "landscapePrompt": "calm vegetation",
+    "lightingPrompt": "teal and orange",
+    "mustKeepPrompt": "Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición, añadir personas",
+    "mustAvoidPrompt": "No añadir piscina, coches, edificios nuevos, nuevas ventanas ni cambios de volumen.",
+    "renderMood": "cinematic",
+    "extraParameters": {
+      "roofMaterial": "",
+      "mainFacadeMaterial": "",
+      "verticalCladdingMaterial": "",
+      "windowFrames": "",
+      "glassType": "",
+      "pavingMaterial": "",
+      "vegetationDensity": "medium",
+      "people": false,
+      "cars": false,
+      "pool": false,
+      "timeOfDay": "",
+      "cameraChangeAllowed": false,
+      "geometryChangeAllowed": false,
+      "plants": []
+    },
+    "referenceImageUrls": [
+      "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780494000606/references/reference_0_1780494339123.jpeg",
+      "https://images.stockcake.com/public/6/3/1/6315561d-0871-4b01-87ee-9285e1f4ee02_large/sculptural-spiral-staircase-stockcake.jpg"
+    ]
+  },
+  "analysis": {
+    "sceneSummary": "An interior perspective view of a modern, multi-level living space, characterized by a prominent floating staircase that connects the lower and upper floors. A large window on the lower level provides natural light and a view of outdoor vegetation. A feature wall clad in wood, with a framed artwork, acts as a focal point above the staircase. A partial view of a kitchen or bar area is visible on the right side of the lower level.",
+    "camera": "Interior perspective looking upwards and slightly to the right, capturing the ascent of a modern staircase. The camera's viewpoint is from the lower level, emphasizing the height and connection between floors, and includes a feature wall and a large window in the background.",
+    "geometry": {
+      "massing": [
+        "A multi-level interior space defined by clean, angular walls, floors, and ceilings.",
+        "A prominent open-riser staircase with a solid white stringer/balustrade on the left, curving slightly upwards.",
+        "A rectangular feature wall panel, clad in a wood texture, extending from the ceiling towards the stair landing, with a centrally placed framed artwork.",
+        "A large, horizontal rectangular window spanning a significant portion of the back wall on the lower level.",
+        "A partial view of a kitchen island or bar counter with wooden cabinetry and a light-colored countertop on the lower level.",
+        "Multiple white, block-like structures or columns on the lower level, one appearing as a structural support near the stairs, and another cylindrical column near the large window."
+      ],
+      "levels": "Two distinct levels are visible, connected by the staircase.",
+      "roof": "Not directly visible; implied by the interior ceiling plane.",
+      "openings": [
+        "One large, rectangular horizontal window on the lower level, providing an exterior view."
+      ],
+      "siteContext": [
+        "Calm vegetation visible outside the large window."
+      ]
+    },
+    "handwrittenAnnotations": [],
+    "materialsDetected": [
+      "Walls: Light grey (suggesting concrete or painted plaster).",
+      "Stairs: White solid material (suggesting concrete or a similar smooth finish).",
+      "Floor: Dark grey (suggesting concrete or dark large-format tiles).",
+      "Ceiling: Light grey.",
+      "Feature Wall: Light to medium tone wood texture (e.g., oak, maple).",
+      "Artwork: Framed, abstract pattern in green and light pink/beige tones.",
+      "Window Frames: Thin, dark-colored frames (e.g., black or dark grey metal).",
+      "Glass: Transparent.",
+      "Bar/Kitchen Island: Light wood texture for cabinetry, light grey countertop.",
+      "Exterior Sky: Bright blue.",
+      "Exterior Landscape: Green and brown hues of natural vegetation."
+    ],
+    "designIntent": [
+      "To create a modern and minimalist interior space.",
+      "To highlight the staircase as a central architectural feature.",
+      "To utilize a large window for natural light and connection to exterior nature.",
+      "To introduce warmth and visual interest through a wood-clad feature wall with artwork.",
+      "To achieve a 'warm_minimal' aesthetic using a combination of wood and concrete materials."
+    ],
+    "preserve": [
+      "The exact volumetry of the building.",
+      "The exact roof structure (where implied by the ceiling).",
+      "The exact dimensions and placement of all openings (windows).",
+      "The exact camera perspective and viewpoint.",
+      "The exact proportions of all architectural elements.",
+      "The exact composition of the scene as presented in the SketchUp viewport.",
+      "All existing geometry, including walls, floors, ceilings, the staircase design, the feature wall, the visible kitchen/bar elements, and structural/partitioning columns.",
+      "Adding people to the scene."
+    ],
+    "avoid": [
+      "Adding a swimming pool.",
+      "Adding cars.",
+      "Adding new buildings or structures.",
+      "Adding new windows.",
+      "Any changes to the existing architectural volume or geometry."
+    ],
+    "ambiguities": [
+      "The specific type and finish of the wood for the feature wall and kitchen/bar cabinetry.",
+      "The exact texture or finish for the 'concrete' areas (walls, floor, stairs) – whether smooth polished, rough, or cast-in-place.",
+      "The precise layout and function of the areas on the lower level that are obscured by the staircase and other elements."
+    ]
+  },
+  "referenceStyle": {
+    "styleSummary": "Modern, minimalist luxury with a focus on natural materials, soft, diffused lighting, and a serene, resort-like atmosphere. The aesthetic is clean, warm, and inviting, emphasizing open spaces and a connection to nature.",
+    "referenceCount": 2,
+    "commonMaterialPalette": [
+      "Light-toned natural wood (flooring, ceiling slats, bed frame, headboard, built-in furniture, door frames, window frames/balcony railings)",
+      "Translucent/frosted glass (headboard partition, window elements)",
+      "White and light grey soft fabrics (bedding, pillows)",
+      "Textured off-white/cream plaster walls",
+      "Dark grey natural stone/marble (visible in bathroom)",
+      "Subtle metallic finishes (electrical outlets, light fixture details)"
+    ],
+    "commonColorPalette": [
+      "Warm light beige/cream/off-white (walls, most textiles)",
+      "Varying shades of natural light brown (all wooden elements)",
+      "Soft, muted grey (accent pillows, some architectural details, bathroom stone)",
+      "Subtle, desaturated greens/blues (distant foliage)",
+      "Minimal dark accents (black cords, small hardware)"
+    ],
+    "lightingStyle": "Predominantly bright, diffused natural daylight entering from large windows, creating a soft and even illumination that minimizes harsh shadows. The overall ambiance is gentle and inviting, with artificial lighting (pendant lights, wall sconces) serving as subtle accent rather than primary illumination.",
+    "landscapeStyle": "Suggestive of lush, well-maintained tropical or natural surroundings, often depicted in a soft-focus or blurred manner through large windows. This integrates the natural environment into the living space without being a primary focal point, often featuring wooden vertical elements as part of outdoor partitions or railings.",
+    "atmosphere": "Serene, tranquil, and luxurious. The space feels open, airy, and clean, conveying a sense of calm and high-end comfort, often associated with a modern resort or spa setting. It evokes peacefulness and understated elegance.",
+    "renderingTechnique": "High-quality photorealistic rendering with a clean finish, characterized by soft global illumination, realistic material shaders with subtle reflections, and a slight depth of field, particularly in the exterior views. The overall image has a crisp yet soft visual quality, with smooth transitions and refined details.",
+    "textureDetail": "Fine and subtle texture detail across all surfaces. Wood exhibits delicate, realistic grain patterns. Walls show a very fine, almost imperceptible plaster texture. Fabrics are smooth with a soft tactile quality. Stone textures (marble) in the background have realistic veining, contributing to the perceived luxury without being overly dramatic. Textures are clean and well-defined.",
+    "compositionNotes": [
+      "Utilizes wide-angle perspectives to showcase the spaciousness and openness of the interior, creating a sense of grandeur.",
+      "Emphasizes clean horizontal and vertical lines in architectural elements, creating a sense of order, structure, and modern design.",
+      "Framing often includes views through large windows or open doorways, effectively connecting the interior with the blurred exterior or adjacent spaces, enhancing visual depth.",
+      "Balanced compositions with a focus on geometric clarity, spatial flow, and minimalist arrangements.",
+      "Natural light is a key compositional element, strategically used to highlight textures and define forms within the space."
+    ],
+    "applyToTargetRender": [
+      "Prioritize a warm, minimalist color scheme dominated by light wood tones, off-whites, and soft greys.",
+      "Implement ample diffused natural light as the primary illumination source, complemented by subtle, warm artificial accent lighting.",
+      "Design with clean lines, simple forms, and a strong emphasis on natural materials for a sophisticated, understated look.",
+      "Ensure high-quality, subtle material textures for all surfaces, avoiding overly rough, glossy, or distracting finishes.",
+      "Create an atmosphere of calm luxury and understated elegance through thoughtful material selection and lighting.",
+      "Include blurred natural elements visible through large openings to enhance the connection to nature and add depth to the scene."
+    ],
+    "avoidCopying": [
+      "Specific architectural floor plans or room layouts.",
+      "Exact designs of furniture pieces such as the bed, headboard, or built-in shelving and side tables.",
+      "Precise details of light fixtures, electrical outlets, or hardware beyond their general style.",
+      "Any specific plant species or outdoor structural elements beyond their general stylistic presence."
+    ],
+    "doNotCopyFromReferences": [
+      "Buildings",
+      "Exact architecture",
+      "Specific objects",
+      "Logos, text, people or furniture"
+    ]
+  },
+  "finalPrompt": "You are an expert architectural visualization artist specializing in strict SketchUp-to-render materialization.\n\nTASK:\nConvert the provided SketchUp viewport screenshot into a photorealistic architectural render.\n\nThis is an image-to-image transformation task.\nThis is NOT text-to-image generation.\nThis is NOT a redesign.\nThis is NOT concept design.\nThis is NOT a new building.\n\nThe input image is the source of truth.\n\nGEOMETRY LOCK MODE: ULTRA STRICT\n\nThis is a strict image-to-image materialization task.\n\nThe source image must be treated as a locked architectural underlay.\nThe generated image must preserve 95-100% of the source geometry.\n\nAbsolutely preserve:\n- silhouette\n- roof geometry\n- roof slopes\n- roof edges\n- roof overhangs\n- roof heights\n- facade proportions\n- facade rhythm\n- window positions\n- window sizes\n- door positions\n- door sizes\n- wall planes\n- columns\n- recesses\n- projections\n- paving geometry\n- foreground geometry\n- site layout\n- camera angle\n- lens/perspective\n- crop/composition\n\nOnly change:\n- material realism\n- surface texture\n- lighting\n- shadows\n- glass reflections\n- vegetation\n- atmospheric realism\n- removal of SketchUp viewport artifacts\n\nSOURCE IMAGE ROLE:\nThe source image defines the exact geometry, camera, perspective, massing, roof shape, roof slopes, openings, facade rhythm, site layout, crop and proportions.\n\nThe generated render must align with the source image like a photorealistic overlay.\n\nSCENE SUMMARY FROM IMAGE ANALYSIS:\nAn interior perspective view of a modern, multi-level living space, characterized by a prominent floating staircase that connects the lower and upper floors. A large window on the lower level provides natural light and a view of outdoor vegetation. A feature wall clad in wood, with a framed artwork, acts as a focal point above the staircase. A partial view of a kitchen or bar area is visible on the right side of the lower level.\n\nCAMERA FROM IMAGE ANALYSIS:\nInterior perspective looking upwards and slightly to the right, capturing the ascent of a modern staircase. The camera's viewpoint is from the lower level, emphasizing the height and connection between floors, and includes a feature wall and a large window in the background.\n\nGEOMETRY TO PRESERVE FROM IMAGE ANALYSIS:\n- The exact volumetry of the building.\n- The exact roof structure (where implied by the ceiling).\n- The exact dimensions and placement of all openings (windows).\n- The exact camera perspective and viewpoint.\n- The exact proportions of all architectural elements.\n- The exact composition of the scene as presented in the SketchUp viewport.\n- All existing geometry, including walls, floors, ceilings, the staircase design, the feature wall, the visible kitchen/bar elements, and structural/partitioning columns.\n- Adding people to the scene.\n\nMATERIALS DETECTED FROM IMAGE:\n- Walls: Light grey (suggesting concrete or painted plaster).\n- Stairs: White solid material (suggesting concrete or a similar smooth finish).\n- Floor: Dark grey (suggesting concrete or dark large-format tiles).\n- Ceiling: Light grey.\n- Feature Wall: Light to medium tone wood texture (e.g., oak, maple).\n- Artwork: Framed, abstract pattern in green and light pink/beige tones.\n- Window Frames: Thin, dark-colored frames (e.g., black or dark grey metal).\n- Glass: Transparent.\n- Bar/Kitchen Island: Light wood texture for cabinetry, light grey countertop.\n- Exterior Sky: Bright blue.\n- Exterior Landscape: Green and brown hues of natural vegetation.\n\nDESIGN INTENT FROM IMAGE ANALYSIS:\n- To create a modern and minimalist interior space.\n- To highlight the staircase as a central architectural feature.\n- To utilize a large window for natural light and connection to exterior nature.\n- To introduce warmth and visual interest through a wood-clad feature wall with artwork.\n- To achieve a 'warm_minimal' aesthetic using a combination of wood and concrete materials.\n\nREFERENCE STYLE DNA:\nStyle summary:\nModern, minimalist luxury with a focus on natural materials, soft, diffused lighting, and a serene, resort-like atmosphere. The aesthetic is clean, warm, and inviting, emphasizing open spaces and a connection to nature.\n\nCommon material palette:\n- Light-toned natural wood (flooring, ceiling slats, bed frame, headboard, built-in furniture, door frames, window frames/balcony railings)\n- Translucent/frosted glass (headboard partition, window elements)\n- White and light grey soft fabrics (bedding, pillows)\n- Textured off-white/cream plaster walls\n- Dark grey natural stone/marble (visible in bathroom)\n- Subtle metallic finishes (electrical outlets, light fixture details)\n\nCommon color palette:\n- Warm light beige/cream/off-white (walls, most textiles)\n- Varying shades of natural light brown (all wooden elements)\n- Soft, muted grey (accent pillows, some architectural details, bathroom stone)\n- Subtle, desaturated greens/blues (distant foliage)\n- Minimal dark accents (black cords, small hardware)\n\nLighting style:\nPredominantly bright, diffused natural daylight entering from large windows, creating a soft and even illumination that minimizes harsh shadows. The overall ambiance is gentle and inviting, with artificial lighting (pendant lights, wall sconces) serving as subtle accent rather than primary illumination.\n\nLandscape style:\nSuggestive of lush, well-maintained tropical or natural surroundings, often depicted in a soft-focus or blurred manner through large windows. This integrates the natural environment into the living space without being a primary focal point, often featuring wooden vertical elements as part of outdoor partitions or railings.\n\nAtmosphere:\nSerene, tranquil, and luxurious. The space feels open, airy, and clean, conveying a sense of calm and high-end comfort, often associated with a modern resort or spa setting. It evokes peacefulness and understated elegance.\n\nRendering technique:\nHigh-quality photorealistic rendering with a clean finish, characterized by soft global illumination, realistic material shaders with subtle reflections, and a slight depth of field, particularly in the exterior views. The overall image has a crisp yet soft visual quality, with smooth transitions and refined details.\n\nTexture detail:\nFine and subtle texture detail across all surfaces. Wood exhibits delicate, realistic grain patterns. Walls show a very fine, almost imperceptible plaster texture. Fabrics are smooth with a soft tactile quality. Stone textures (marble) in the background have realistic veining, contributing to the perceived luxury without being overly dramatic. Textures are clean and well-defined.\n\nComposition notes:\n- Utilizes wide-angle perspectives to showcase the spaciousness and openness of the interior, creating a sense of grandeur.\n- Emphasizes clean horizontal and vertical lines in architectural elements, creating a sense of order, structure, and modern design.\n- Framing often includes views through large windows or open doorways, effectively connecting the interior with the blurred exterior or adjacent spaces, enhancing visual depth.\n- Balanced compositions with a focus on geometric clarity, spatial flow, and minimalist arrangements.\n- Natural light is a key compositional element, strategically used to highlight textures and define forms within the space.\n\nApply to target render:\n- Prioritize a warm, minimalist color scheme dominated by light wood tones, off-whites, and soft greys.\n- Implement ample diffused natural light as the primary illumination source, complemented by subtle, warm artificial accent lighting.\n- Design with clean lines, simple forms, and a strong emphasis on natural materials for a sophisticated, understated look.\n- Ensure high-quality, subtle material textures for all surfaces, avoiding overly rough, glossy, or distracting finishes.\n- Create an atmosphere of calm luxury and understated elegance through thoughtful material selection and lighting.\n- Include blurred natural elements visible through large openings to enhance the connection to nature and add depth to the scene.\n\nAvoid copying:\n- Specific architectural floor plans or room layouts.\n- Exact designs of furniture pieces such as the bed, headboard, or built-in shelving and side tables.\n- Precise details of light fixtures, electrical outlets, or hardware beyond their general style.\n- Any specific plant species or outdoor structural elements beyond their general stylistic presence.\n\nDo not copy from references:\n- Buildings\n- Exact architecture\n- Specific objects\n- Logos, text, people or furniture\n\nREFERENCE STYLE APPLICATION RULES:\n- Apply only the visual mood, material palette, color palette, lighting style, atmosphere, texture realism and rendering technique from the reference image set.\n- Use the reference images as STYLE ONLY.\n- Do not copy the reference building geometry.\n- Do not copy the reference building layout.\n- Do not copy exact objects, furniture, people, cars, logos, signage, text, artwork or decorative elements.\n- Do not change the target building geometry to match the references.\n- The SketchUp source image remains the only geometry source of truth.\n\nSTYLE PRESET:\nwarm_minimal\n\nSTYLE INSTRUCTION:\nWarm minimal residential architecture style.\nMaterials: off-white plaster, natural oak or thermowood, beige stone, microcement paving, slim dark frames.\nLandscape: minimal curated planting, grasses, gravel and low shrubs.\nLighting: soft daylight, realistic shadows.\nMood: quiet luxury, warm, restrained and realistic.\nPreserve the source geometry exactly.\n\nUSER-SPECIFIC INSTRUCTIONS:\n- General instruction: Materializar esta misma captura sin rediseñar el edificio.\n- Materials: madera y hormigon\n- Landscape: calm vegetation\n- Lighting: teal and orange\n- Mood: cinematic\n- Must keep: Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición, añadir personas\n- Must avoid: No añadir piscina, coches, edificios nuevos, nuevas ventanas ni cambios de volumen.\n\nEXTRA PARAMETERS:\n{\n  \"roofMaterial\": \"\",\n  \"mainFacadeMaterial\": \"\",\n  \"verticalCladdingMaterial\": \"\",\n  \"windowFrames\": \"\",\n  \"glassType\": \"\",\n  \"pavingMaterial\": \"\",\n  \"vegetationDensity\": \"medium\",\n  \"people\": false,\n  \"cars\": false,\n  \"pool\": false,\n  \"timeOfDay\": \"\",\n  \"cameraChangeAllowed\": false,\n  \"geometryChangeAllowed\": false,\n  \"plants\": []\n}\n\nPRIORITY RULE:\n1. Geometry preservation has the highest priority.\n2. User-specific material, landscape, lighting, mood and extra parameters override the reference style DNA and selected style preset.\n3. Reference style DNA overrides the selected style preset for visual mood, material palette, color palette, lighting and atmosphere.\n4. The selected style preset overrides inferred material assumptions from the image analysis.\n5. No style, reference image or user instruction may override geometry preservation unless the user explicitly asks for design changes.\n\nPHOTOREALISTIC MATERIALIZATION REQUIREMENTS:\n- Replace the flat SketchUp viewport look with realistic built materials.\n- Keep all architectural edges, proportions and major lines aligned with the source.\n- Add realistic material texture without altering geometry.\n- Add realistic glass reflections without changing window size or position.\n- Add realistic shadows while respecting the original building form.\n- Remove SketchUp grid, viewport artifacts, wireframe artifacts and default grey shading.\n- Improve surfaces, landscape and atmosphere only where they do not alter the architecture.\n- Keep the same image crop and camera composition.\n- Maintain a believable architectural photography look.\n- Avoid overly stylized AI render aesthetics.\n\nABSOLUTE NEGATIVE INSTRUCTIONS:\n- Do not redesign the house.\n- Do not generate a different building.\n- Do not reinterpret the architecture.\n- Do not change the roof geometry.\n- Do not simplify the roof.\n- Do not alter roof slopes.\n- Do not change roof heights.\n- Do not add dormers.\n- Do not add extra floors.\n- Do not add new wings.\n- Do not add extensions.\n- Do not change the building footprint.\n- Do not move openings.\n- Do not resize windows.\n- Do not resize doors.\n- Do not change facade rhythm.\n- Do not change proportions.\n- Do not change the camera angle.\n- Do not change perspective.\n- Do not crop differently.\n- Do not add unrelated buildings.\n- Do not turn this into a generic AI villa.\n- Do not add text, labels, logos or watermarks.\n\nAVOID FROM IMAGE ANALYSIS:\n- Adding a swimming pool.\n- Adding cars.\n- Adding new buildings or structures.\n- Adding new windows.\n- Any changes to the existing architectural volume or geometry.\n\nFINAL OUTPUT:\nA photorealistic materialized version of the exact same source architecture, suitable for architectural client presentation."
+}
