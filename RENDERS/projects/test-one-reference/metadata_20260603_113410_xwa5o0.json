@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "projectId": "test-one-reference",
+  "createdAt": "2026-06-03T11:34:10.131Z",
+  "renderPath": "RENDERS/projects/test-one-reference/render_20260603_113410_xwa5o0.jpg",
+  "metadataPath": "RENDERS/projects/test-one-reference/metadata_20260603_113410_xwa5o0.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/test-one-reference/render_20260603_113410_xwa5o0.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "image.jpg",
+  "request": {
+    "projectId": "test-one-reference",
+    "inputImageUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/refs/heads/main/imagenes/imagen%20(2).png",
+    "inputType": "sketchup_viewport",
+    "viewType": "exterior",
+    "fidelity": "strict",
+    "geometryLock": "ultra_strict",
+    "stylePreset": "mediterranean_white",
+    "outputResolution": "2K",
+    "userPrompt": "",
+    "materialPrompt": "travertine stone, warm vertical timber, white stucco",
+    "landscapePrompt": "luxury mediterranean garden with dry grasses",
+    "lightingPrompt": "soft sunset lighting",
+    "mustKeepPrompt": "preserve exact geometry and facade composition",
+    "mustAvoidPrompt": "do not redesign the building",
+    "renderMood": "premium contemporary residential architecture",
+    "extraParameters": {},
+    "referenceImageUrls": []
+  },
+  "analysis": {
+    "sceneSummary": "An interior SketchUp viewport view depicting a modern residential space. The camera is positioned on a lower level, looking upwards towards a white, floating-style staircase. The staircase leads to an upper-level landing where a framed artwork is displayed on a timber-paneled wall. Large horizontal windows on the lower level provide a glimpse of an exterior landscape and blue sky, and part of a kitchen island/counter is visible to the right.",
+    "camera": "Interior perspective view, looking upwards and slightly to the right. The camera is positioned at a low-to-mid height within the lower level, capturing the ascending staircase, the upper landing, and the feature wall with the artwork. The view encompasses both the immediate interior architectural elements and the distant exterior through the windows.",
+    "geometry": {
+      "massing": [
+        "Prominent white, modern, floating-style staircase with solid white risers and stringers, featuring a smooth, continuous underside. The staircase makes a turn, indicating a multi-flight ascent.",
+        "An upper-level wall structure that partially cantilevers over the staircase, clad in a warm-toned vertical timber material. This wall hosts a large, centrally placed framed artwork.",
+        "White rectangular walls defining the interior space, some serving as support for the staircase and others as background elements.",
+        "A partial view of a kitchen island or counter on the lower level, located to the right. It features a base clad in warm-toned vertical timber and a lighter-colored, flat countertop.",
+        "A slender, white cylindrical column visible through the large windows on the lower level, supporting an unseen exterior structure.",
+        "A large, white rectangular architectural block or pillar positioned to the immediate right of the staircase on the lower level, extending from floor to ceiling."
+      ],
+      "levels": "The image clearly depicts a multi-level interior space. The camera is situated on a lower floor, and the staircase ascends to an upper floor or landing, making at least two distinct levels visible.",
+      "roof": "The ceiling of the upper level/landing is visible in the upper portion of the image. It appears flat, clean, and light-colored.",
+      "openings": [
+        "Large, continuous horizontal windows on the lower level, extending across a significant portion of the wall, providing an expansive view to the exterior. The window frames are thin, dark, and minimalist.",
+        "A smaller, partially visible rectangular opening or window located on the upper level, towards the back-left corner of the timber-paneled wall."
+      ],
+      "siteContext": [
+        "A clear blue sky is visible through the windows, suggesting good weather conditions.",
+        "A distant, somewhat blurry natural landscape, possibly hills or fields with dry vegetation, is visible through the lower-level windows."
+      ]
+    },
+    "handwrittenAnnotations": [],
+    "materialsDetected": [
+      "White surfaces (walls, staircase structure, columns, rectangular block): Default SketchUp white, which should be rendered as 'white stucco' per user instructions.",
+      "Timber paneling (upper-level feature wall and kitchen island base): Warm-toned wood with distinct vertical grain, to be rendered as 'warm vertical timber'.",
+      "Framed artwork: Features an abstract pattern with horizontal stripes in shades of green and beige, enclosed within a slim, dark brown or black frame.",
+      "Countertop (kitchen island): Light grey or off-white solid surface, likely stone, to be rendered as 'travertine stone' per user instructions.",
+      "Stair treads (specifically on the lower steps, which appear darker than the white structure): Darker grey, possibly concrete or a darker stone, to be rendered as 'travertine stone' per user instructions (assuming this applies to the treads).",
+      "Window glass: Transparent, reflecting the blue sky and exterior light.",
+      "Floor (lower level, partially visible under the staircase): Dark grey, possibly concrete or large format tile.",
+      "Exterior distant landscape: Brownish-green textured area, to be rendered as 'luxury mediterranean garden with dry grasses' per user instructions."
+    ],
+    "designIntent": [
+      "To create a premium contemporary residential interior with a strong emphasis on clean lines, minimalist aesthetics, and natural materials.",
+      "To feature a sculptural, floating staircase as a central architectural element, providing vertical connectivity and visual interest.",
+      "To maximize natural light and blur the boundary between interior and exterior through large, strategically placed windows.",
+      "To integrate textural contrast using smooth white surfaces, warm timber, and natural stone (as per user instructions for travertine)."
+    ],
+    "preserve": [
+      "The exact geometry of all visible architectural elements, including the staircase design, walls, openings, and built-in features.",
+      "The specific camera angle and perspective, which captures an upward view of the staircase and the upper landing.",
+      "The massing and proportions of the entire visible interior space and its components.",
+      "The flat ceiling shape of the upper level/landing.",
+      "The composition, size, and placement of all windows and openings as depicted in the image."
+    ],
+    "avoid": [
+      "Redesigning the building's interior layout, structural forms, or architectural details.",
+      "Altering the composition or style of the framed artwork."
+    ],
+    "ambiguities": [
+      "The full extent and layout of the rooms beyond the visible portions of the image.",
+      "The precise finish and texture of the default SketchUp white surfaces, which should be interpreted as 'white stucco' based on user instructions.",
+      "The specific type and grain pattern for the 'warm vertical timber' elements.",
+      "The full detail and species of plants within the distant landscape, which needs to be rendered as a 'luxury mediterranean garden with dry grasses'."
+    ]
+  },
+  "referenceStyle": null,
+  "finalPrompt": "You are an expert architectural visualization artist specializing in strict SketchUp-to-render materialization.\n\nTASK:\nConvert the provided SketchUp viewport screenshot into a photorealistic architectural render.\n\nThis is an image-to-image transformation task.\nThis is NOT text-to-image generation.\nThis is NOT a redesign.\nThis is NOT concept design.\nThis is NOT a new building.\n\nThe input image is the source of truth.\n\nGEOMETRY LOCK MODE: ULTRA STRICT\n\nThis is a strict image-to-image materialization task.\n\nThe source image must be treated as a locked architectural underlay.\nThe generated image must preserve 95-100% of the source geometry.\n\nAbsolutely preserve:\n- silhouette\n- roof geometry\n- roof slopes\n- roof edges\n- roof overhangs\n- roof heights\n- facade proportions\n- facade rhythm\n- window positions\n- window sizes\n- door positions\n- door sizes\n- wall planes\n- columns\n- recesses\n- projections\n- paving geometry\n- foreground geometry\n- site layout\n- camera angle\n- lens/perspective\n- crop/composition\n\nOnly change:\n- material realism\n- surface texture\n- lighting\n- shadows\n- glass reflections\n- vegetation\n- atmospheric realism\n- removal of SketchUp viewport artifacts\n\nSOURCE IMAGE ROLE:\nThe source image defines the exact geometry, camera, perspective, massing, roof shape, roof slopes, openings, facade rhythm, site layout, crop and proportions.\n\nThe generated render must align with the source image like a photorealistic overlay.\n\nSCENE SUMMARY FROM IMAGE ANALYSIS:\nAn interior SketchUp viewport view depicting a modern residential space. The camera is positioned on a lower level, looking upwards towards a white, floating-style staircase. The staircase leads to an upper-level landing where a framed artwork is displayed on a timber-paneled wall. Large horizontal windows on the lower level provide a glimpse of an exterior landscape and blue sky, and part of a kitchen island/counter is visible to the right.\n\nCAMERA FROM IMAGE ANALYSIS:\nInterior perspective view, looking upwards and slightly to the right. The camera is positioned at a low-to-mid height within the lower level, capturing the ascending staircase, the upper landing, and the feature wall with the artwork. The view encompasses both the immediate interior architectural elements and the distant exterior through the windows.\n\nGEOMETRY TO PRESERVE FROM IMAGE ANALYSIS:\n- The exact geometry of all visible architectural elements, including the staircase design, walls, openings, and built-in features.\n- The specific camera angle and perspective, which captures an upward view of the staircase and the upper landing.\n- The massing and proportions of the entire visible interior space and its components.\n- The flat ceiling shape of the upper level/landing.\n- The composition, size, and placement of all windows and openings as depicted in the image.\n\nMATERIALS DETECTED FROM IMAGE:\n- White surfaces (walls, staircase structure, columns, rectangular block): Default SketchUp white, which should be rendered as 'white stucco' per user instructions.\n- Timber paneling (upper-level feature wall and kitchen island base): Warm-toned wood with distinct vertical grain, to be rendered as 'warm vertical timber'.\n- Framed artwork: Features an abstract pattern with horizontal stripes in shades of green and beige, enclosed within a slim, dark brown or black frame.\n- Countertop (kitchen island): Light grey or off-white solid surface, likely stone, to be rendered as 'travertine stone' per user instructions.\n- Stair treads (specifically on the lower steps, which appear darker than the white structure): Darker grey, possibly concrete or a darker stone, to be rendered as 'travertine stone' per user instructions (assuming this applies to the treads).\n- Window glass: Transparent, reflecting the blue sky and exterior light.\n- Floor (lower level, partially visible under the staircase): Dark grey, possibly concrete or large format tile.\n- Exterior distant landscape: Brownish-green textured area, to be rendered as 'luxury mediterranean garden with dry grasses' per user instructions.\n\nDESIGN INTENT FROM IMAGE ANALYSIS:\n- To create a premium contemporary residential interior with a strong emphasis on clean lines, minimalist aesthetics, and natural materials.\n- To feature a sculptural, floating staircase as a central architectural element, providing vertical connectivity and visual interest.\n- To maximize natural light and blur the boundary between interior and exterior through large, strategically placed windows.\n- To integrate textural contrast using smooth white surfaces, warm timber, and natural stone (as per user instructions for travertine).\n\nREFERENCE STYLE DNA:\nNo reference style images were provided.\nUse the selected style preset, user instructions and image analysis only.\n\nSTYLE PRESET:\nmediterranean_white\n\nSTYLE INSTRUCTION:\nMediterranean white architecture style.\nMaterials: off-white mineral render, limewash texture, warm natural timber, black or bronze slim aluminium frames, pale stone or washed concrete paving.\nLandscape: dry Mediterranean planting, gravel, olive trees, lavender, rosemary, grasses.\nLighting: warm late-afternoon sunlight, soft shadows, calm atmosphere.\nMood: sober, warm, realistic, refined and architectural.\nPreserve the source geometry exactly.\n\nUSER-SPECIFIC INSTRUCTIONS:\n- No general user instruction provided.\n- Materials: travertine stone, warm vertical timber, white stucco\n- Landscape: luxury mediterranean garden with dry grasses\n- Lighting: soft sunset lighting\n- Mood: premium contemporary residential architecture\n- Must keep: preserve exact geometry and facade composition\n- Must avoid: do not redesign the building\n\nEXTRA PARAMETERS:\nNone\n\nPRIORITY RULE:\n1. Geometry preservation has the highest priority.\n2. User-specific material, landscape, lighting, mood and extra parameters override the reference style DNA and selected style preset.\n3. Reference style DNA overrides the selected style preset for visual mood, material palette, color palette, lighting and atmosphere.\n4. The selected style preset overrides inferred material assumptions from the image analysis.\n5. No style, reference image or user instruction may override geometry preservation unless the user explicitly asks for design changes.\n\nPHOTOREALISTIC MATERIALIZATION REQUIREMENTS:\n- Replace the flat SketchUp viewport look with realistic built materials.\n- Keep all architectural edges, proportions and major lines aligned with the source.\n- Add realistic material texture without altering geometry.\n- Add realistic glass reflections without changing window size or position.\n- Add realistic shadows while respecting the original building form.\n- Remove SketchUp grid, viewport artifacts, wireframe artifacts and default grey shading.\n- Improve surfaces, landscape and atmosphere only where they do not alter the architecture.\n- Keep the same image crop and camera composition.\n- Maintain a believable architectural photography look.\n- Avoid overly stylized AI render aesthetics.\n\nABSOLUTE NEGATIVE INSTRUCTIONS:\n- Do not redesign the house.\n- Do not generate a different building.\n- Do not reinterpret the architecture.\n- Do not change the roof geometry.\n- Do not simplify the roof.\n- Do not alter roof slopes.\n- Do not change roof heights.\n- Do not add dormers.\n- Do not add extra floors.\n- Do not add new wings.\n- Do not add extensions.\n- Do not change the building footprint.\n- Do not move openings.\n- Do not resize windows.\n- Do not resize doors.\n- Do not change facade rhythm.\n- Do not change proportions.\n- Do not change the camera angle.\n- Do not change perspective.\n- Do not crop differently.\n- Do not add unrelated buildings.\n- Do not turn this into a generic AI villa.\n- Do not add text, labels, logos or watermarks.\n\nAVOID FROM IMAGE ANALYSIS:\n- Redesigning the building's interior layout, structural forms, or architectural details.\n- Altering the composition or style of the framed artwork.\n\nFINAL OUTPUT:\nA photorealistic materialized version of the exact same source architecture, suitable for architectural client presentation."
+}
