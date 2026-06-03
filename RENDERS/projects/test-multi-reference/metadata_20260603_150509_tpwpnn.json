@@ -1,0 +1,146 @@
+{
+  "ok": true,
+  "projectId": "test-multi-reference",
+  "createdAt": "2026-06-03T15:05:09.532Z",
+  "renderPath": "RENDERS/projects/test-multi-reference/render_20260603_150509_tpwpnn.jpg",
+  "metadataPath": "RENDERS/projects/test-multi-reference/metadata_20260603_150509_tpwpnn.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/test-multi-reference/render_20260603_150509_tpwpnn.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "image.jpg",
+  "request": {
+    "projectId": "test-multi-reference",
+    "inputImageUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/refs/heads/main/imagenes/Screenshot%202025-10-06%20185408.png",
+    "inputType": "sketchup_viewport",
+    "viewType": "exterior",
+    "fidelity": "strict",
+    "geometryLock": "ultra_strict",
+    "stylePreset": "mediterranean_white",
+    "outputResolution": "2K",
+    "userPrompt": "high-end architectural visualization",
+    "materialPrompt": "travertine stone, warm timber, exposed concrete",
+    "landscapePrompt": "luxury mediterranean garden with dry grasses",
+    "lightingPrompt": "soft sunset cinematic lighting",
+    "mustKeepPrompt": "preserve exact geometry and facade composition",
+    "mustAvoidPrompt": "do not redesign the building",
+    "renderMood": "premium contemporary residential architecture",
+    "extraPrompt": "",
+    "extraParameters": {
+      "customAtmosphere": "subtle haze with warm shadows",
+      "renderEngineLook": "V-Ray style realism",
+      "specialNotes": "very realistic material aging"
+    },
+    "referenceImageUrls": [
+      "https://raw.githubusercontent.com/inforBAT/results_sites/refs/heads/main/imagenes/la-expresividad-del-hormigon-visto-explorando-las-obras-de-luciano-kruk_31.jpg",
+      "https://raw.githubusercontent.com/inforBAT/results_sites/refs/heads/main/imagenes/brutalist-house.jpg"
+    ]
+  },
+  "analysis": {
+    "sceneSummary": "An exterior architectural visualization of a contemporary single-story residential building with a complex, multi-pitched roofline, large glass openings, and various facade treatments, viewed from a slightly low, front-left perspective. The scene includes a hardscaped foreground with a path and a raised planter.",
+    "camera": "Exterior perspective shot, slightly below eye-level, focusing on the front facade of the building from the left-front angle. The camera captures the full width of the main building mass and a portion of the foreground site context.",
+    "geometry": {
+      "massing": [
+        "Linear single-story building composed of projecting and recessed volumes along the facade.",
+        "The main facade features sections of smooth wall and distinct vertical cladding elements.",
+        "A significant roof overhang is present, particularly on the right side, casting prominent shadows."
+      ],
+      "levels": "Single-story.",
+      "roof": "Complex roofline featuring multiple varying-pitch skillion (shed) roofs, creating an articulated and dynamic profile. Some sections imply flat roof elements or parapets, especially above the right-most facade.",
+      "openings": [
+        "One small, vertical rectangular window on the far left of the facade.",
+        "Multiple large, floor-to-ceiling glass openings, likely sliding doors or fixed panels, distributed across the facade.",
+        "A tall, narrow glass door or window unit positioned centrally.",
+        "The right-most large glass opening appears to feature vertical elements, possibly screens or louvers, either internal or external.",
+        "Dark grey infill in all openings suggests clear glass, reflecting shadows or interior darkness."
+      ],
+      "siteContext": [
+        "A hardscaped foreground area with a defined path or driveway, featuring a subtle curve or change in direction.",
+        "A raised planter box or low retaining wall structure is visible on the far left in the foreground.",
+        "The ground plane extending into the distance shows a subtle grid pattern, indicative of paving or structured hardscaping."
+      ]
+    },
+    "handwrittenAnnotations": [],
+    "materialsDetected": [
+      "white/light grey rendered walls (implied base material)",
+      "dark grey glass for all openings",
+      "sections of vertical cladding (current material undefined, but intended for warm timber as per user instructions)",
+      "white/light grey roof surfaces (implied base material)",
+      "light grey paved ground plane with a subtle grid pattern"
+    ],
+    "designIntent": [
+      "Achieve a high-end architectural visualization of premium contemporary residential architecture.",
+      "Materialize the building with a palette including travertine stone for walls/elements, warm timber for vertical cladding and accents, and exposed concrete for specific architectural features (e.g., planter box, retaining walls).",
+      "Integrate a luxury mediterranean garden with dry grasses into the landscape design.",
+      "Utilize soft sunset cinematic lighting with warm shadows and a subtle haze.",
+      "The render should exhibit V-Ray style realism with very realistic material aging.",
+      "The 'mediterranean_white' style preset should influence the overall color palette towards light tones and natural textures without altering the contemporary architectural geometry."
+    ],
+    "preserve": [
+      "Exact building geometry",
+      "Facade composition",
+      "Camera angle and perspective",
+      "Building massing",
+      "Proportions of all elements",
+      "Roof shape and its complex profile",
+      "Placement, size, and type of all openings (windows and doors)"
+    ],
+    "avoid": [
+      "Redesigning the building's architectural elements or form"
+    ],
+    "ambiguities": [
+      "The exact material for the vertical cladding as depicted in the SketchUp image is generic; it will be interpreted as 'warm timber' based on user instructions.",
+      "The precise nature and function of the vertical elements visible through the glass openings on the right side (e.g., internal screens, external louvers, railing components) require interpretation, but their visual presence must be maintained."
+    ]
+  },
+  "referenceStyle": {
+    "styleSummary": "A brutalist-inspired modern architectural style characterized by massive, geometric forms and the dominant use of exposed, board-formed concrete. The design features strong cantilevered elements, large expanses of glass, and a minimalist aesthetic that integrates with a natural, somewhat wild landscape. The overall visual impression is one of robustness, sculptural quality, and serene monumentality, captured under bright, diffused daylight.",
+    "referenceCount": 2,
+    "commonMaterialPalette": [
+      "Exposed, board-formed concrete (light to medium gray)",
+      "Large format glass panels (transparent, reflective, dark tint optional)",
+      "Thin metal railings (dark gray/black)",
+      "Natural wood (minimal, subtle, e.g., interior elements glimpsed through glass)"
+    ],
+    "commonColorPalette": [
+      "Muted light grays (concrete)",
+      "Deep blues (sky)",
+      "Varying greens (foliage, trees)",
+      "Earthy browns/tans (dry grass, soil)",
+      "Dark grays/blacks (shadows, window frames, railing)",
+      "Subtle reflections of environment on glass"
+    ],
+    "lightingStyle": "Bright, natural daylight, often appearing diffused by soft clouds, resulting in even illumination across surfaces and soft-edged but distinct shadows. Highlights are bright, and mid-tones are well-defined, contributing to a high-contrast but not harsh look. The light emphasizes the raw texture of the concrete and the reflective quality of the glass.",
+    "landscapeStyle": "Natural, somewhat wild or unmanicured, featuring dry or less vibrant grass, and mature, established trees and shrubs. The landscape is integrated organically with the building, providing a natural backdrop rather than a manicured garden. There's a sense of ruggedness that complements the brutalist architecture.",
+    "atmosphere": "Serene, contemplative, and monumental. The building exudes a sense of strength, solidity, and quiet power. It feels integrated yet distinct within its natural setting, evoking a minimalist and robust modernism.",
+    "renderingTechnique": "Photorealistic with a focus on sharp detail and accurate material representation. Clean lines and crisp edges are paramount. The rendering should capture the nuanced textures of board-formed concrete and the reflective/transparent properties of glass, with balanced exposure and a high dynamic range.",
+    "textureDetail": "High detail, particularly for the board-formed concrete, showcasing its characteristic wood grain impressions and subtle imperfections. Glass features sharp, clear reflections and transparency. Natural elements like grass and leaves also exhibit fine detail, contributing to the overall realism.",
+    "compositionNotes": [
+      "Utilize wide-angle perspectives to capture the building's scale and its relationship with the surrounding landscape.",
+      "Employ low camera angles to emphasize the building's monumentality, height, and the dramatic cantilevered forms.",
+      "Highlight strong geometric lines and the interplay of solid concrete masses with transparent glass voids.",
+      "Consider asymmetrical compositions, leveraging cantilevered sections to create visual tension and dynamism.",
+      "Frame the building to showcase its structural details and material honesty.",
+      "Incorporate foreground elements (e.g., grass, ground plane) to add depth and ground the composition."
+    ],
+    "applyToTargetRender": [
+      "Prioritize raw, board-formed concrete as the primary building material, ensuring its texture is highly detailed and visible.",
+      "Design with strong, geometric forms, incorporating cantilevered elements for dramatic effect.",
+      "Use large expanses of clear or subtly tinted glass, emphasizing reflection and transparency.",
+      "Employ natural, diffused daylighting to create soft but defined shadows that highlight architectural volumes.",
+      "Integrate the structure into a natural, somewhat wild landscape with mature trees and less manicured ground cover.",
+      "Aim for a monumental, serene, and minimalist atmosphere.",
+      "Render with photorealistic precision, focusing on material accuracy and clean architectural lines.",
+      "Compose shots from low angles and wide perspectives to enhance the sense of scale and structural drama."
+    ],
+    "avoidCopying": [
+      "The exact design and proportions of the referenced building's structure.",
+      "Specific window patterns or openings unique to the reference.",
+      "The precise configuration of the cantilever or support elements."
+    ],
+    "doNotCopyFromReferences": [
+      "The specific architectural plan or elevation of the building.",
+      "Any recognizable objects, furniture, or fixtures present in the interior or exterior.",
+      "Any logos, text, or human figures that might be incidentally visible."
+    ]
+  },
+  "finalPrompt": "You are an expert architectural visualization artist specializing in strict SketchUp-to-render materialization.\n\nTASK:\nConvert the provided SketchUp viewport screenshot into a photorealistic architectural render.\n\nThis is an image-to-image transformation task.\nThis is NOT text-to-image generation.\nThis is NOT a redesign.\nThis is NOT concept design.\nThis is NOT a new building.\n\nThe input source image is the source of truth for geometry.\nAny reference images are style references only.\n\nGEOMETRY LOCK MODE: ULTRA STRICT\n\nThis is a strict image-to-image materialization task.\n\nThe source image must be treated as a locked architectural underlay.\nThe generated image must preserve 95-100% of the source geometry.\n\nAbsolutely preserve:\n- silhouette\n- roof geometry\n- roof slopes\n- roof edges\n- roof overhangs\n- roof heights\n- facade proportions\n- facade rhythm\n- window positions\n- window sizes\n- door positions\n- door sizes\n- wall planes\n- columns\n- recesses\n- projections\n- vertical facade rhythms\n- paving geometry\n- foreground geometry\n- site layout\n- camera angle\n- lens/perspective\n- crop/composition\n\nOnly change:\n- material realism\n- surface texture\n- lighting\n- shadows\n- glass reflections\n- vegetation\n- atmospheric realism\n- removal of SketchUp viewport artifacts\n\nSOURCE IMAGE ROLE:\nThe source image defines the exact geometry, camera, perspective, massing, roof shape, roof slopes, openings, facade rhythm, site layout, crop and proportions.\n\nThe generated render must align with the source image like a photorealistic overlay.\n\nSCENE SUMMARY FROM IMAGE ANALYSIS:\nAn exterior architectural visualization of a contemporary single-story residential building with a complex, multi-pitched roofline, large glass openings, and various facade treatments, viewed from a slightly low, front-left perspective. The scene includes a hardscaped foreground with a path and a raised planter.\n\nCAMERA FROM IMAGE ANALYSIS:\nExterior perspective shot, slightly below eye-level, focusing on the front facade of the building from the left-front angle. The camera captures the full width of the main building mass and a portion of the foreground site context.\n\nGEOMETRY TO PRESERVE FROM IMAGE ANALYSIS:\n- Exact building geometry\n- Facade composition\n- Camera angle and perspective\n- Building massing\n- Proportions of all elements\n- Roof shape and its complex profile\n- Placement, size, and type of all openings (windows and doors)\n\nMATERIALS DETECTED FROM IMAGE:\n- white/light grey rendered walls (implied base material)\n- dark grey glass for all openings\n- sections of vertical cladding (current material undefined, but intended for warm timber as per user instructions)\n- white/light grey roof surfaces (implied base material)\n- light grey paved ground plane with a subtle grid pattern\n\nDESIGN INTENT FROM IMAGE ANALYSIS:\n- Achieve a high-end architectural visualization of premium contemporary residential architecture.\n- Materialize the building with a palette including travertine stone for walls/elements, warm timber for vertical cladding and accents, and exposed concrete for specific architectural features (e.g., planter box, retaining walls).\n- Integrate a luxury mediterranean garden with dry grasses into the landscape design.\n- Utilize soft sunset cinematic lighting with warm shadows and a subtle haze.\n- The render should exhibit V-Ray style realism with very realistic material aging.\n- The 'mediterranean_white' style preset should influence the overall color palette towards light tones and natural textures without altering the contemporary architectural geometry.\n\nREFERENCE STYLE DNA:\nStyle summary:\nA brutalist-inspired modern architectural style characterized by massive, geometric forms and the dominant use of exposed, board-formed concrete. The design features strong cantilevered elements, large expanses of glass, and a minimalist aesthetic that integrates with a natural, somewhat wild landscape. The overall visual impression is one of robustness, sculptural quality, and serene monumentality, captured under bright, diffused daylight.\n\nCommon material palette:\n- Exposed, board-formed concrete (light to medium gray)\n- Large format glass panels (transparent, reflective, dark tint optional)\n- Thin metal railings (dark gray/black)\n- Natural wood (minimal, subtle, e.g., interior elements glimpsed through glass)\n\nCommon color palette:\n- Muted light grays (concrete)\n- Deep blues (sky)\n- Varying greens (foliage, trees)\n- Earthy browns/tans (dry grass, soil)\n- Dark grays/blacks (shadows, window frames, railing)\n- Subtle reflections of environment on glass\n\nLighting style:\nBright, natural daylight, often appearing diffused by soft clouds, resulting in even illumination across surfaces and soft-edged but distinct shadows. Highlights are bright, and mid-tones are well-defined, contributing to a high-contrast but not harsh look. The light emphasizes the raw texture of the concrete and the reflective quality of the glass.\n\nLandscape style:\nNatural, somewhat wild or unmanicured, featuring dry or less vibrant grass, and mature, established trees and shrubs. The landscape is integrated organically with the building, providing a natural backdrop rather than a manicured garden. There's a sense of ruggedness that complements the brutalist architecture.\n\nAtmosphere:\nSerene, contemplative, and monumental. The building exudes a sense of strength, solidity, and quiet power. It feels integrated yet distinct within its natural setting, evoking a minimalist and robust modernism.\n\nRendering technique:\nPhotorealistic with a focus on sharp detail and accurate material representation. Clean lines and crisp edges are paramount. The rendering should capture the nuanced textures of board-formed concrete and the reflective/transparent properties of glass, with balanced exposure and a high dynamic range.\n\nTexture detail:\nHigh detail, particularly for the board-formed concrete, showcasing its characteristic wood grain impressions and subtle imperfections. Glass features sharp, clear reflections and transparency. Natural elements like grass and leaves also exhibit fine detail, contributing to the overall realism.\n\nComposition notes:\n- Utilize wide-angle perspectives to capture the building's scale and its relationship with the surrounding landscape.\n- Employ low camera angles to emphasize the building's monumentality, height, and the dramatic cantilevered forms.\n- Highlight strong geometric lines and the interplay of solid concrete masses with transparent glass voids.\n- Consider asymmetrical compositions, leveraging cantilevered sections to create visual tension and dynamism.\n- Frame the building to showcase its structural details and material honesty.\n- Incorporate foreground elements (e.g., grass, ground plane) to add depth and ground the composition.\n\nApply to target render:\n- Prioritize raw, board-formed concrete as the primary building material, ensuring its texture is highly detailed and visible.\n- Design with strong, geometric forms, incorporating cantilevered elements for dramatic effect.\n- Use large expanses of clear or subtly tinted glass, emphasizing reflection and transparency.\n- Employ natural, diffused daylighting to create soft but defined shadows that highlight architectural volumes.\n- Integrate the structure into a natural, somewhat wild landscape with mature trees and less manicured ground cover.\n- Aim for a monumental, serene, and minimalist atmosphere.\n- Render with photorealistic precision, focusing on material accuracy and clean architectural lines.\n- Compose shots from low angles and wide perspectives to enhance the sense of scale and structural drama.\n\nAvoid copying:\n- The exact design and proportions of the referenced building's structure.\n- Specific window patterns or openings unique to the reference.\n- The precise configuration of the cantilever or support elements.\n\nDo not copy from references:\n- The specific architectural plan or elevation of the building.\n- Any recognizable objects, furniture, or fixtures present in the interior or exterior.\n- Any logos, text, or human figures that might be incidentally visible.\n\nREFERENCE STYLE APPLICATION RULES:\n- Apply only the visual mood, material palette, color palette, lighting style, atmosphere, texture realism and rendering technique from the reference image set.\n- Use the reference images as STYLE ONLY.\n- Do not copy the reference building geometry.\n- Do not copy the reference building layout.\n- Do not copy exact objects, furniture, people, cars, logos, signage, text, artwork or decorative elements.\n- Do not change the target building geometry to match the references.\n- The SketchUp source image remains the only geometry source of truth.\n\nDIRECT REFERENCE IMAGES:\nThe edit model will also receive 2 reference image(s) directly as additional image inputs.\n\nUse these direct reference images only for:\n- material mood\n- color palette\n- lighting\n- atmosphere\n- texture quality\n- rendering style\n- landscape mood\n\nDo NOT use the direct reference images for:\n- target building geometry\n- roof shape\n- facade layout\n- window positions\n- proportions\n- camera angle\n- added volumes\n- copying exact reference buildings\n\nThe source SketchUp image remains the only geometry source of truth.\n\nSTYLE PRESET:\nmediterranean_white\n\nSTYLE INSTRUCTION:\nMediterranean white architecture style.\nMaterials: off-white mineral render, limewash texture, warm natural timber, black or bronze slim aluminium frames, pale stone or washed concrete paving.\nLandscape: dry Mediterranean planting, gravel, olive trees, lavender, rosemary, grasses.\nLighting: warm late-afternoon sunlight, soft shadows, calm atmosphere.\nMood: sober, warm, realistic, refined and architectural.\nPreserve the source geometry exactly.\n\nUSER-SPECIFIC INSTRUCTIONS:\n- General instruction: high-end architectural visualization\n- Materials: travertine stone, warm timber, exposed concrete\n- Landscape: luxury mediterranean garden with dry grasses\n- Lighting: soft sunset cinematic lighting\n- Mood: premium contemporary residential architecture\n- Must keep: preserve exact geometry and facade composition\n- Must avoid: do not redesign the building\n- No extra free instruction provided.\n\nEXTRA PARAMETERS:\n{\n  \"customAtmosphere\": \"subtle haze with warm shadows\",\n  \"renderEngineLook\": \"V-Ray style realism\",\n  \"specialNotes\": \"very realistic material aging\"\n}\n\nPRIORITY RULE:\n1. Geometry preservation has the highest priority.\n2. Extra free instruction and user-specific material, landscape, lighting, mood and extra parameters override the reference style DNA and selected style preset.\n3. Reference style DNA and direct reference images override the selected style preset for visual mood, material palette, color palette, lighting and atmosphere.\n4. The selected style preset overrides inferred material assumptions from the image analysis.\n5. No style, reference image or user instruction may override geometry preservation unless the user explicitly asks for design changes.\n\nPHOTOREALISTIC MATERIALIZATION REQUIREMENTS:\n- Replace the flat SketchUp viewport look with realistic built materials.\n- Keep all architectural edges, proportions and major lines aligned with the source.\n- Add realistic material texture without altering geometry.\n- Add realistic glass reflections without changing window size or position.\n- Add realistic shadows while respecting the original building form.\n- Remove SketchUp grid, viewport artifacts, wireframe artifacts and default grey shading.\n- Improve surfaces, landscape and atmosphere only where they do not alter the architecture.\n- Keep the same image crop and camera composition.\n- Maintain a believable architectural photography look.\n- Avoid overly stylized AI render aesthetics.\n\nABSOLUTE NEGATIVE INSTRUCTIONS:\n- Do not redesign the house.\n- Do not generate a different building.\n- Do not reinterpret the architecture.\n- Do not change the roof geometry.\n- Do not simplify the roof.\n- Do not alter roof slopes.\n- Do not change roof heights.\n- Do not add dormers.\n- Do not add extra floors.\n- Do not add new wings.\n- Do not add extensions.\n- Do not change the building footprint.\n- Do not move openings.\n- Do not resize windows.\n- Do not resize doors.\n- Do not change facade rhythm.\n- Do not change proportions.\n- Do not change the camera angle.\n- Do not change perspective.\n- Do not crop differently.\n- Do not add unrelated buildings.\n- Do not turn this into a generic AI villa.\n- Do not copy geometry from reference images.\n- Do not copy the reference buildings.\n- Do not add text, labels, logos or watermarks.\n\nAVOID FROM IMAGE ANALYSIS:\n- Redesigning the building's architectural elements or form\n\nFINAL OUTPUT:\nA photorealistic materialized version of the exact same source architecture, suitable for architectural client presentation."
+}
