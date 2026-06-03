@@ -1,0 +1,173 @@
+{
+  "ok": true,
+  "projectId": "proj_1780494862951",
+  "createdAt": "2026-06-03T14:04:58.450Z",
+  "renderPath": "RENDERS/projects/proj_1780494862951/render_20260603_140458_3zf50r.jpg",
+  "metadataPath": "RENDERS/projects/proj_1780494862951/metadata_20260603_140458_3zf50r.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/proj_1780494862951/render_20260603_140458_3zf50r.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "image.jpg",
+  "request": {
+    "projectId": "proj_1780494862951",
+    "inputImageUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780494862951/source_1780495407030.png",
+    "inputType": "sketchup_viewport",
+    "viewType": "interior",
+    "fidelity": "balanced",
+    "geometryLock": "ultra_strict",
+    "stylePreset": "photorealistic_materialization",
+    "outputResolution": "2K",
+    "userPrompt": "Materializar esta misma captura sin rediseñar el edificio.",
+    "materialPrompt": "BARANDILLA DE MADERA COMO EN LA REFERENCIA 2",
+    "landscapePrompt": "",
+    "lightingPrompt": "",
+    "mustKeepPrompt": "Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición.",
+    "mustAvoidPrompt": "No añadir piscina, coches, personas, edificios nuevos, nuevas ventanas ni cambios de volumen.",
+    "renderMood": "",
+    "extraParameters": {
+      "roofMaterial": "",
+      "mainFacadeMaterial": "",
+      "verticalCladdingMaterial": "",
+      "windowFrames": "",
+      "glassType": "",
+      "pavingMaterial": "",
+      "vegetationDensity": "medium",
+      "people": false,
+      "cars": false,
+      "pool": false,
+      "timeOfDay": "",
+      "cameraChangeAllowed": false,
+      "geometryChangeAllowed": false,
+      "plants": []
+    },
+    "referenceImageUrls": [
+      "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780494862951/references/reference_0_1780495409444.png",
+      "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780494862951/references/reference_1_1780495413609.webp"
+    ]
+  },
+  "analysis": {
+    "sceneSummary": "An interior view of a modern multi-level space, likely a contemporary home or public building entrance, featuring a prominent staircase and large windows looking out to the exterior.",
+    "camera": "Interior perspective view, positioned on the lower floor looking upwards towards a white staircase, leading to an upper level. The view extends beyond the staircase to large windows in the background, revealing the sky and a distant landscape.",
+    "geometry": {
+      "massing": [
+        "A prominent, solid white modern staircase with an open riser design at its base, curving upwards to an upper landing.",
+        "Thick, minimalist grey walls form the main structure of the interior space.",
+        "Several white rectangular columns or wall sections are visible, contributing to the open-plan layout.",
+        "A section of the ceiling is paneled with light wood, featuring a framed abstract artwork.",
+        "The lower floor appears to be a darker grey with lighter patterned elements (possibly tiles or a rug).",
+        "A kitchen island or bar counter is visible on the lower right, with a wooden base and a light-colored countertop."
+      ],
+      "levels": "Two distinct levels are visible: the lower floor where the camera is situated, and the upper floor accessed by the staircase.",
+      "roof": "Not visible from this interior perspective.",
+      "openings": [
+        "A large, horizontal floor-to-ceiling window or glass wall is visible in the background, revealing the outdoor sky and a natural landscape.",
+        "A smaller rectangular opening on the upper left side, partially obscured by the staircase, also shows blue sky.",
+        "Another upper-level opening, beyond the staircase landing, similarly shows blue sky."
+      ],
+      "siteContext": [
+        "Blue sky is visible through all major openings.",
+        "A distant natural landscape, possibly a vegetated hillside, is visible through the main large window."
+      ]
+    },
+    "handwrittenAnnotations": [],
+    "materialsDetected": [
+      "Main walls: Light grey, smooth finish.",
+      "Staircase (treads, risers, and balustrade): White, smooth finish (note: user instruction indicates a change to wood for the balustrade).",
+      "Ceiling panels: Light brown wood with visible grain (e.g., light oak).",
+      "Artwork frame: Dark brown/black.",
+      "Artwork content: Abstract pattern of green and light beige/pink horizontal lines.",
+      "Lower floor: Dark grey with lighter grey/white geometric patterns (possibly polished concrete, large format tiles, or a rug).",
+      "Kitchen island/bar base: Light brown wood with visible grain, similar to ceiling panels.",
+      "Kitchen island/bar countertop: Light grey/white, smooth finish.",
+      "Window frames: Minimal, dark (black or very dark grey) outlining visible glass.",
+      "Glass: Transparent, reflecting blue sky and outdoor scenery.",
+      "Bar stools: Black wireframe or metal construction."
+    ],
+    "designIntent": [
+      "Modern minimalist architectural style.",
+      "Open-plan living space with a prominent, sculptural staircase.",
+      "Emphasis on natural light through large transparent openings.",
+      "Integration of warm wood accents against a palette of cool greys and whites.",
+      "Clean lines and geometric forms defining the interior volumes.",
+      "The staircase balustrade, currently rendered as solid white in the image, is intended to be materialized as 'BARANDILLA DE MADERA' (wooden balustrade) as per user instructions."
+    ],
+    "preserve": [
+      "Exact building volumetry.",
+      "Exact roof design (although not visible, the design intent for the roof should be maintained).",
+      "Exact placement and dimensions of all openings (windows, doors, etc.).",
+      "The specific camera angle and perspective.",
+      "All proportions of the building elements.",
+      "The overall composition of the scene.",
+      "The main geometry and design intent of the building."
+    ],
+    "avoid": [
+      "Adding a swimming pool.",
+      "Adding cars.",
+      "Adding people.",
+      "Adding new buildings.",
+      "Adding new windows.",
+      "Any changes to the existing building's volume."
+    ],
+    "ambiguities": [
+      "The exact type and finish of the wood for the 'BARANDILLA DE MADERA' (wooden balustrade) as 'REFERENCIA 2' was not provided, therefore a suitable wooden balustrade will be chosen for materialization.",
+      "The precise material and pattern of the lower floor (e.g., polished concrete with inlay, large format tiles, or a rug) are not entirely clear from the SketchUp rendering.",
+      "The exact function or type of the smaller upper-left opening (e.g., window, void, or skylight) is not fully discernible beyond showing blue sky."
+    ]
+  },
+  "referenceStyle": {
+    "styleSummary": "A minimalist and sophisticated architectural style characterized by abundant natural light, a warm earthy material palette, and strong indoor-outdoor connections. The aesthetic emphasizes clean lines, natural textures, and a serene atmosphere, rendered with photorealistic clarity and thoughtful composition.",
+    "referenceCount": 1,
+    "commonMaterialPalette": [
+      "Light to medium-dark natural wood (prominent grain)",
+      "Rough light grey/off-white concrete or natural stone (for walls and island bases)",
+      "Smooth off-white/light beige plaster or paint for walls and ceilings",
+      "Brass or gold-toned metals for accents (faucets, window frames)",
+      "Brown leather (for upholstery)",
+      "Large clear glass panels",
+      "Polished concrete or light stone flooring"
+    ],
+    "commonColorPalette": [
+      "Warm browns (from wood and leather)",
+      "Earthy greys and off-whites (from concrete, stone, walls, ceiling)",
+      "Subtle golden hues (from metallic accents)",
+      "Natural greens (from outdoor foliage)",
+      "Clear sky blue (seen through windows)"
+    ],
+    "lightingStyle": "Abundant natural daylight, strong and directional, creating defined, elongated shadows on floors and walls. Features bright, high-contrast areas where light hits surfaces. A warm, inviting glow, with subtle highlights on reflective metallic elements and appliance screens.",
+    "landscapeStyle": "Minimalist and arid, featuring natural, rough-hewn stone walls (dry-stacked or similar texture) and sparse, architectural-style plants (e.g., succulents, agaves). Clear blue skies are often visible, maintaining a serene and clean outdoor aesthetic.",
+    "atmosphere": "Serene, tranquil, sophisticated, and inviting. Conveys a sense of understated luxury and a strong connection to nature and natural elements. Bright and airy, yet grounded and warm.",
+    "renderingTechnique": "Photorealistic with high fidelity to material textures. Sharp focus with clear depth of field. Clean and crisp imagery with noticeable, yet tasteful, 'sparkle' or highlight effects on metallic and reflective surfaces. Utilizes strong contrast between illuminated and shadowed areas.",
+    "textureDetail": "High detail on natural materials: prominent wood grain, subtle imperfections and variations in stone/concrete surfaces, and a soft, tactile quality for leather. Walls and ceilings are generally smooth and uniform, allowing other textures to stand out.",
+    "compositionNotes": [
+      "Balanced and often symmetrical or near-symmetrical layouts, especially around central elements like kitchen islands.",
+      "Strong use of leading lines (e.g., ceiling angles, wall edges, window frames) to guide the eye.",
+      "Emphasis on spaciousness and open-plan living, often using wide-angle views.",
+      "Foreground elements (dining table, chairs) used to create depth and frame the main subject.",
+      "Integration of indoor and outdoor views, with large openings that blur the boundaries."
+    ],
+    "applyToTargetRender": [
+      "Prioritize natural light as the primary light source, creating pronounced shadows.",
+      "Select a material palette focused on warm woods, textured light stone/concrete, and off-whites.",
+      "Incorporate brass or gold accents sparingly for a touch of elegance.",
+      "Ensure high fidelity in material textures, showing realistic grain in wood and subtle variations in stone.",
+      "Design outdoor views with minimalist natural stone walls and arid, architectural planting.",
+      "Maintain a clean, uncluttered, and sophisticated aesthetic with clean lines.",
+      "Utilize balanced compositions that emphasize open space and indoor-outdoor flow.",
+      "Aim for a photorealistic rendering style with sharp details and appealing highlights on reflective surfaces."
+    ],
+    "avoidCopying": [
+      "Specific furniture designs (e.g., bar stools, dining chairs, dining table style).",
+      "Exact architectural elements (e.g., specific pitched roof design, precise window framing details).",
+      "Particular kitchen appliance models or specific kitchen layout beyond general material use.",
+      "The exact configuration of the stone wall or plant types in the landscape.",
+      "Any specific branding or logos visible on appliances."
+    ],
+    "doNotCopyFromReferences": [
+      "The architectural design of the building itself.",
+      "The precise interior layout or floor plan.",
+      "Any specific objects that are not part of the general style (e.g., specific bowl, bread loaf).",
+      "Text or branding.",
+      "People or human figures."
+    ]
+  },
+  "finalPrompt": "You are an expert architectural visualization artist specializing in strict SketchUp-to-render materialization.\n\nTASK:\nConvert the provided SketchUp viewport screenshot into a photorealistic architectural render.\n\nThis is an image-to-image transformation task.\nThis is NOT text-to-image generation.\nThis is NOT a redesign.\nThis is NOT concept design.\nThis is NOT a new building.\n\nThe input image is the source of truth.\n\nGEOMETRY LOCK MODE: ULTRA STRICT\n\nThis is a strict image-to-image materialization task.\n\nThe source image must be treated as a locked architectural underlay.\nThe generated image must preserve 95-100% of the source geometry.\n\nAbsolutely preserve:\n- silhouette\n- roof geometry\n- roof slopes\n- roof edges\n- roof overhangs\n- roof heights\n- facade proportions\n- facade rhythm\n- window positions\n- window sizes\n- door positions\n- door sizes\n- wall planes\n- columns\n- recesses\n- projections\n- paving geometry\n- foreground geometry\n- site layout\n- camera angle\n- lens/perspective\n- crop/composition\n\nOnly change:\n- material realism\n- surface texture\n- lighting\n- shadows\n- glass reflections\n- vegetation\n- atmospheric realism\n- removal of SketchUp viewport artifacts\n\nSOURCE IMAGE ROLE:\nThe source image defines the exact geometry, camera, perspective, massing, roof shape, roof slopes, openings, facade rhythm, site layout, crop and proportions.\n\nThe generated render must align with the source image like a photorealistic overlay.\n\nSCENE SUMMARY FROM IMAGE ANALYSIS:\nAn interior view of a modern multi-level space, likely a contemporary home or public building entrance, featuring a prominent staircase and large windows looking out to the exterior.\n\nCAMERA FROM IMAGE ANALYSIS:\nInterior perspective view, positioned on the lower floor looking upwards towards a white staircase, leading to an upper level. The view extends beyond the staircase to large windows in the background, revealing the sky and a distant landscape.\n\nGEOMETRY TO PRESERVE FROM IMAGE ANALYSIS:\n- Exact building volumetry.\n- Exact roof design (although not visible, the design intent for the roof should be maintained).\n- Exact placement and dimensions of all openings (windows, doors, etc.).\n- The specific camera angle and perspective.\n- All proportions of the building elements.\n- The overall composition of the scene.\n- The main geometry and design intent of the building.\n\nMATERIALS DETECTED FROM IMAGE:\n- Main walls: Light grey, smooth finish.\n- Staircase (treads, risers, and balustrade): White, smooth finish (note: user instruction indicates a change to wood for the balustrade).\n- Ceiling panels: Light brown wood with visible grain (e.g., light oak).\n- Artwork frame: Dark brown/black.\n- Artwork content: Abstract pattern of green and light beige/pink horizontal lines.\n- Lower floor: Dark grey with lighter grey/white geometric patterns (possibly polished concrete, large format tiles, or a rug).\n- Kitchen island/bar base: Light brown wood with visible grain, similar to ceiling panels.\n- Kitchen island/bar countertop: Light grey/white, smooth finish.\n- Window frames: Minimal, dark (black or very dark grey) outlining visible glass.\n- Glass: Transparent, reflecting blue sky and outdoor scenery.\n- Bar stools: Black wireframe or metal construction.\n\nDESIGN INTENT FROM IMAGE ANALYSIS:\n- Modern minimalist architectural style.\n- Open-plan living space with a prominent, sculptural staircase.\n- Emphasis on natural light through large transparent openings.\n- Integration of warm wood accents against a palette of cool greys and whites.\n- Clean lines and geometric forms defining the interior volumes.\n- The staircase balustrade, currently rendered as solid white in the image, is intended to be materialized as 'BARANDILLA DE MADERA' (wooden balustrade) as per user instructions.\n\nREFERENCE STYLE DNA:\nStyle summary:\nA minimalist and sophisticated architectural style characterized by abundant natural light, a warm earthy material palette, and strong indoor-outdoor connections. The aesthetic emphasizes clean lines, natural textures, and a serene atmosphere, rendered with photorealistic clarity and thoughtful composition.\n\nCommon material palette:\n- Light to medium-dark natural wood (prominent grain)\n- Rough light grey/off-white concrete or natural stone (for walls and island bases)\n- Smooth off-white/light beige plaster or paint for walls and ceilings\n- Brass or gold-toned metals for accents (faucets, window frames)\n- Brown leather (for upholstery)\n- Large clear glass panels\n- Polished concrete or light stone flooring\n\nCommon color palette:\n- Warm browns (from wood and leather)\n- Earthy greys and off-whites (from concrete, stone, walls, ceiling)\n- Subtle golden hues (from metallic accents)\n- Natural greens (from outdoor foliage)\n- Clear sky blue (seen through windows)\n\nLighting style:\nAbundant natural daylight, strong and directional, creating defined, elongated shadows on floors and walls. Features bright, high-contrast areas where light hits surfaces. A warm, inviting glow, with subtle highlights on reflective metallic elements and appliance screens.\n\nLandscape style:\nMinimalist and arid, featuring natural, rough-hewn stone walls (dry-stacked or similar texture) and sparse, architectural-style plants (e.g., succulents, agaves). Clear blue skies are often visible, maintaining a serene and clean outdoor aesthetic.\n\nAtmosphere:\nSerene, tranquil, sophisticated, and inviting. Conveys a sense of understated luxury and a strong connection to nature and natural elements. Bright and airy, yet grounded and warm.\n\nRendering technique:\nPhotorealistic with high fidelity to material textures. Sharp focus with clear depth of field. Clean and crisp imagery with noticeable, yet tasteful, 'sparkle' or highlight effects on metallic and reflective surfaces. Utilizes strong contrast between illuminated and shadowed areas.\n\nTexture detail:\nHigh detail on natural materials: prominent wood grain, subtle imperfections and variations in stone/concrete surfaces, and a soft, tactile quality for leather. Walls and ceilings are generally smooth and uniform, allowing other textures to stand out.\n\nComposition notes:\n- Balanced and often symmetrical or near-symmetrical layouts, especially around central elements like kitchen islands.\n- Strong use of leading lines (e.g., ceiling angles, wall edges, window frames) to guide the eye.\n- Emphasis on spaciousness and open-plan living, often using wide-angle views.\n- Foreground elements (dining table, chairs) used to create depth and frame the main subject.\n- Integration of indoor and outdoor views, with large openings that blur the boundaries.\n\nApply to target render:\n- Prioritize natural light as the primary light source, creating pronounced shadows.\n- Select a material palette focused on warm woods, textured light stone/concrete, and off-whites.\n- Incorporate brass or gold accents sparingly for a touch of elegance.\n- Ensure high fidelity in material textures, showing realistic grain in wood and subtle variations in stone.\n- Design outdoor views with minimalist natural stone walls and arid, architectural planting.\n- Maintain a clean, uncluttered, and sophisticated aesthetic with clean lines.\n- Utilize balanced compositions that emphasize open space and indoor-outdoor flow.\n- Aim for a photorealistic rendering style with sharp details and appealing highlights on reflective surfaces.\n\nAvoid copying:\n- Specific furniture designs (e.g., bar stools, dining chairs, dining table style).\n- Exact architectural elements (e.g., specific pitched roof design, precise window framing details).\n- Particular kitchen appliance models or specific kitchen layout beyond general material use.\n- The exact configuration of the stone wall or plant types in the landscape.\n- Any specific branding or logos visible on appliances.\n\nDo not copy from references:\n- The architectural design of the building itself.\n- The precise interior layout or floor plan.\n- Any specific objects that are not part of the general style (e.g., specific bowl, bread loaf).\n- Text or branding.\n- People or human figures.\n\nREFERENCE STYLE APPLICATION RULES:\n- Apply only the visual mood, material palette, color palette, lighting style, atmosphere, texture realism and rendering technique from the reference image set.\n- Use the reference images as STYLE ONLY.\n- Do not copy the reference building geometry.\n- Do not copy the reference building layout.\n- Do not copy exact objects, furniture, people, cars, logos, signage, text, artwork or decorative elements.\n- Do not change the target building geometry to match the references.\n- The SketchUp source image remains the only geometry source of truth.\n\nSTYLE PRESET:\nphotorealistic_materialization\n\nSTYLE INSTRUCTION:\nPhotorealistic architectural materialization of the provided source image.\nDo not make a new design.\nConvert the SketchUp-like viewport into a realistic built scene.\nKeep the architecture locked.\n\nUSER-SPECIFIC INSTRUCTIONS:\n- General instruction: Materializar esta misma captura sin rediseñar el edificio.\n- Materials: BARANDILLA DE MADERA COMO EN LA REFERENCIA 2\n- Use landscape inferred from the selected style preset and reference style DNA.\n- Use lighting inferred from the selected style preset and reference style DNA.\n- Use mood inferred from the selected style preset and reference style DNA.\n- Must keep: Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición.\n- Must avoid: No añadir piscina, coches, personas, edificios nuevos, nuevas ventanas ni cambios de volumen.\n\nEXTRA PARAMETERS:\n{\n  \"roofMaterial\": \"\",\n  \"mainFacadeMaterial\": \"\",\n  \"verticalCladdingMaterial\": \"\",\n  \"windowFrames\": \"\",\n  \"glassType\": \"\",\n  \"pavingMaterial\": \"\",\n  \"vegetationDensity\": \"medium\",\n  \"people\": false,\n  \"cars\": false,\n  \"pool\": false,\n  \"timeOfDay\": \"\",\n  \"cameraChangeAllowed\": false,\n  \"geometryChangeAllowed\": false,\n  \"plants\": []\n}\n\nPRIORITY RULE:\n1. Geometry preservation has the highest priority.\n2. User-specific material, landscape, lighting, mood and extra parameters override the reference style DNA and selected style preset.\n3. Reference style DNA overrides the selected style preset for visual mood, material palette, color palette, lighting and atmosphere.\n4. The selected style preset overrides inferred material assumptions from the image analysis.\n5. No style, reference image or user instruction may override geometry preservation unless the user explicitly asks for design changes.\n\nPHOTOREALISTIC MATERIALIZATION REQUIREMENTS:\n- Replace the flat SketchUp viewport look with realistic built materials.\n- Keep all architectural edges, proportions and major lines aligned with the source.\n- Add realistic material texture without altering geometry.\n- Add realistic glass reflections without changing window size or position.\n- Add realistic shadows while respecting the original building form.\n- Remove SketchUp grid, viewport artifacts, wireframe artifacts and default grey shading.\n- Improve surfaces, landscape and atmosphere only where they do not alter the architecture.\n- Keep the same image crop and camera composition.\n- Maintain a believable architectural photography look.\n- Avoid overly stylized AI render aesthetics.\n\nABSOLUTE NEGATIVE INSTRUCTIONS:\n- Do not redesign the house.\n- Do not generate a different building.\n- Do not reinterpret the architecture.\n- Do not change the roof geometry.\n- Do not simplify the roof.\n- Do not alter roof slopes.\n- Do not change roof heights.\n- Do not add dormers.\n- Do not add extra floors.\n- Do not add new wings.\n- Do not add extensions.\n- Do not change the building footprint.\n- Do not move openings.\n- Do not resize windows.\n- Do not resize doors.\n- Do not change facade rhythm.\n- Do not change proportions.\n- Do not change the camera angle.\n- Do not change perspective.\n- Do not crop differently.\n- Do not add unrelated buildings.\n- Do not turn this into a generic AI villa.\n- Do not add text, labels, logos or watermarks.\n\nAVOID FROM IMAGE ANALYSIS:\n- Adding a swimming pool.\n- Adding cars.\n- Adding people.\n- Adding new buildings.\n- Adding new windows.\n- Any changes to the existing building's volume.\n\nFINAL OUTPUT:\nA photorealistic materialized version of the exact same source architecture, suitable for architectural client presentation."
+}
