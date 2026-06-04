@@ -1,0 +1,167 @@
+{
+  "ok": true,
+  "projectId": "proj_1780559487492",
+  "createdAt": "2026-06-04T07:53:11.992Z",
+  "renderPath": "RENDERS/projects/proj_1780559487492/render_20260604_075311_uet67u.jpg",
+  "metadataPath": "RENDERS/projects/proj_1780559487492/metadata_20260604_075311_uet67u.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/proj_1780559487492/render_20260604_075311_uet67u.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "render.jpeg",
+  "request": {
+    "projectId": "proj_1780559487492",
+    "inputImageUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780559487492/source_1780559551602.png",
+    "inputType": "sketchup_viewport",
+    "viewType": "section",
+    "fidelity": "strict",
+    "geometryLock": "ultra_strict",
+    "stylePreset": "archdaily_editorial",
+    "outputResolution": "2K",
+    "userPrompt": "Materializar esta misma captura sin rediseñar el edificio.",
+    "materialPrompt": "",
+    "landscapePrompt": "",
+    "lightingPrompt": "",
+    "mustKeepPrompt": "Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición.",
+    "mustAvoidPrompt": "No añadir piscina, coches, personas, edificios nuevos, nuevas ventanas ni cambios de volumen.",
+    "renderMood": "",
+    "extraPrompt": "",
+    "extraParameters": {
+      "roofMaterial": "",
+      "mainFacadeMaterial": "",
+      "verticalCladdingMaterial": "",
+      "windowFrames": "",
+      "glassType": "",
+      "pavingMaterial": "",
+      "vegetationDensity": "medium",
+      "people": true,
+      "cars": false,
+      "pool": false,
+      "timeOfDay": "",
+      "cameraChangeAllowed": false,
+      "geometryChangeAllowed": false,
+      "plants": []
+    },
+    "referenceImageUrls": []
+  },
+  "analysis": {
+    "sceneSummary": "An architectural section view depicting a two-story building with a pitched roof, sectioned on the left, and an attached single-story volume with a flat, slatted roof and vertical cladding on the right. A partially visible, complex roof structure is faintly sketched behind the attached volume. The view includes a basement level below the main building.",
+    "camera": "Orthogonal section view, looking into the building from one side. The camera angle and perspective are fixed, strictly preserving the 2D section presentation.",
+    "geometry": {
+      "massing": [
+        {
+          "type": "main_building",
+          "description": "Two-story structure with a basement, sectioned to reveal interior spaces. Features solid, load-bearing walls and a pitched roof."
+        },
+        {
+          "type": "attached_volume",
+          "description": "Single-story structure connected to the main building, unsectioned. Features vertical cladding on its exterior and a flat roof with an exposed slatted structure, possibly a pergola or shading element."
+        },
+        {
+          "type": "background_structure",
+          "description": "A faint, unsectioned structure located behind the attached volume, characterized by a complex, multi-faceted roof shape (possibly pyramidal or multiple gables)."
+        }
+      ],
+      "levels": "The main building has a basement level, a ground floor, and an upper floor. The attached volume is single-story, at the ground floor level of the main building.",
+      "roof": "The main building has a simple pitched roof. The attached volume has a flat roof with exposed joists/slats forming a regular grid. The background structure has a complex, multi-faceted roof.",
+      "openings": [
+        {
+          "type": "window",
+          "location": "Left wall of the main building, upper floor, sectioned.",
+          "description": "Narrow, vertical window opening."
+        },
+        {
+          "type": "door_or_large_window",
+          "location": "Far right wall of the attached volume, unsectioned.",
+          "description": "Tall, narrow opening, likely a sliding glass door or fixed large window."
+        }
+      ],
+      "siteContext": [
+        {
+          "type": "ground_plane",
+          "description": "Indicated by a dashed line at the base of the main building's ground floor and the attached volume. Represents the exterior ground level."
+        },
+        {
+          "type": "sub_grade_level",
+          "description": "Below the ground plane, indicating a basement or lower level of the main building."
+        }
+      ]
+    },
+    "handwrittenAnnotations": [],
+    "materialsDetected": [
+      {
+        "element": "Sectioned walls, floor slabs, roof structure (main building)",
+        "suggested_material": "Concrete or light grey masonry, indicated by solid grey with hatch pattern."
+      },
+      {
+        "element": "Exterior vertical cladding (attached volume)",
+        "suggested_material": "Vertical wood siding or vertical metal panels, indicated by thin vertical lines."
+      },
+      {
+        "element": "Flat roof slats/joists (attached volume)",
+        "suggested_material": "Wood or metal beams/battens, indicated by small square sections."
+      },
+      {
+        "element": "Window and door frames",
+        "suggested_material": "Dark metal (e.g., aluminum) or dark wood, indicated by thin outlines around glass."
+      },
+      {
+        "element": "Glass",
+        "suggested_material": "Clear architectural glass, transparent in openings."
+      },
+      {
+        "element": "Pitched roof (main building)",
+        "suggested_material": "Dark grey metal roofing or dark grey tiles/shingles (implied by the solid grey section, to be materialized on the exterior surface)."
+      },
+      {
+        "element": "Complex roof (background structure)",
+        "suggested_material": "Light grey or off-white roofing material (e.g., light colored metal, composite shingles), based on the faint lines."
+      }
+    ],
+    "designIntent": [
+      "Modern minimalist aesthetic.",
+      "Clear distinction between enclosed (main building) and semi-enclosed/outdoor (attached volume) spaces.",
+      "Strong emphasis on geometry and volumetric composition.",
+      "Integration of natural light through well-placed openings."
+    ],
+    "preserve": [
+      "Exact building volumetry and massing.",
+      "Precise roof shapes and slopes for both the main building and attached volume.",
+      "Exact dimensions and locations of all visible openings (window, door/large window).",
+      "The camera angle, perspective, and field of view, maintaining the orthogonal section view.",
+      "All architectural proportions as depicted in the original image.",
+      "The overall composition and arrangement of the building elements.",
+      "The dashed lines indicating ground and basement levels should inform the landscape materialization but not be rendered as literal dashed lines."
+    ],
+    "avoid": [
+      "Adding a swimming pool.",
+      "Adding cars.",
+      "Adding people.",
+      "Adding new buildings or structures not present in the original image.",
+      "Adding new windows or openings.",
+      "Any changes to the existing building volumes or massing."
+    ],
+    "ambiguities": [
+      {
+        "element": "Internal white shapes within the main building section",
+        "description": "These shapes are abstract and could represent minimalist furniture, internal walls, or fixtures. They should be interpreted as generic interior elements if materialized, or kept as abstract white volumes if the focus is strictly exterior.",
+        "confidence": 0.7
+      },
+      {
+        "element": "Materiality of sectioned elements",
+        "description": "While indicated as masonry/concrete, the specific type (e.g., exposed concrete, painted concrete, rendered masonry) is not specified.",
+        "confidence": 0.8
+      },
+      {
+        "element": "Materiality of vertical cladding and roof slats",
+        "description": "Could be wood, composite, or specific types of metal. Defaults will be used if not specified.",
+        "confidence": 0.8
+      },
+      {
+        "element": "Nature of the background structure on the right",
+        "description": "It's faintly sketched, suggesting it's either distant, less important, or perhaps an existing structure to be maintained in the context but not emphasized. Its exact function or connection is unclear.",
+        "confidence": 0.6
+      }
+    ]
+  },
+  "referenceStyle": null,
+  "finalPrompt": "You are an expert architectural visualization artist specializing in strict SketchUp-to-render materialization.\n\nTASK:\nConvert the provided SketchUp viewport screenshot into a photorealistic architectural render.\n\nThis is an image-to-image transformation task.\nThis is NOT text-to-image generation.\nThis is NOT a redesign.\nThis is NOT concept design.\nThis is NOT a new building.\n\nThe input source image is the source of truth for geometry.\nAny reference images are style references only.\n\nGEOMETRY LOCK MODE: ULTRA STRICT\n\nThis is a strict image-to-image materialization task.\n\nThe source image must be treated as a locked architectural underlay.\nThe generated image must preserve 95-100% of the source geometry.\n\nAbsolutely preserve:\n- silhouette\n- roof geometry\n- roof slopes\n- roof edges\n- roof overhangs\n- roof heights\n- facade proportions\n- facade rhythm\n- window positions\n- window sizes\n- door positions\n- door sizes\n- wall planes\n- columns\n- recesses\n- projections\n- vertical facade rhythms\n- paving geometry\n- foreground geometry\n- site layout\n- camera angle\n- lens/perspective\n- crop/composition\n\nOnly change:\n- material realism\n- surface texture\n- lighting\n- shadows\n- glass reflections\n- vegetation\n- atmospheric realism\n- removal of SketchUp viewport artifacts\n\nSOURCE IMAGE ROLE:\nThe source image defines the exact geometry, camera, perspective, massing, roof shape, roof slopes, openings, facade rhythm, site layout, crop and proportions.\n\nThe generated render must align with the source image like a photorealistic overlay.\n\nSCENE SUMMARY FROM IMAGE ANALYSIS:\nAn architectural section view depicting a two-story building with a pitched roof, sectioned on the left, and an attached single-story volume with a flat, slatted roof and vertical cladding on the right. A partially visible, complex roof structure is faintly sketched behind the attached volume. The view includes a basement level below the main building.\n\nCAMERA FROM IMAGE ANALYSIS:\nOrthogonal section view, looking into the building from one side. The camera angle and perspective are fixed, strictly preserving the 2D section presentation.\n\nGEOMETRY TO PRESERVE FROM IMAGE ANALYSIS:\n- Exact building volumetry and massing.\n- Precise roof shapes and slopes for both the main building and attached volume.\n- Exact dimensions and locations of all visible openings (window, door/large window).\n- The camera angle, perspective, and field of view, maintaining the orthogonal section view.\n- All architectural proportions as depicted in the original image.\n- The overall composition and arrangement of the building elements.\n- The dashed lines indicating ground and basement levels should inform the landscape materialization but not be rendered as literal dashed lines.\n\nMATERIALS DETECTED FROM IMAGE:\n- {\"element\":\"Sectioned walls, floor slabs, roof structure (main building)\",\"suggested_material\":\"Concrete or light grey masonry, indicated by solid grey with hatch pattern.\"}\n- {\"element\":\"Exterior vertical cladding (attached volume)\",\"suggested_material\":\"Vertical wood siding or vertical metal panels, indicated by thin vertical lines.\"}\n- {\"element\":\"Flat roof slats/joists (attached volume)\",\"suggested_material\":\"Wood or metal beams/battens, indicated by small square sections.\"}\n- {\"element\":\"Window and door frames\",\"suggested_material\":\"Dark metal (e.g., aluminum) or dark wood, indicated by thin outlines around glass.\"}\n- {\"element\":\"Glass\",\"suggested_material\":\"Clear architectural glass, transparent in openings.\"}\n- {\"element\":\"Pitched roof (main building)\",\"suggested_material\":\"Dark grey metal roofing or dark grey tiles/shingles (implied by the solid grey section, to be materialized on the exterior surface).\"}\n- {\"element\":\"Complex roof (background structure)\",\"suggested_material\":\"Light grey or off-white roofing material (e.g., light colored metal, composite shingles), based on the faint lines.\"}\n\nDESIGN INTENT FROM IMAGE ANALYSIS:\n- Modern minimalist aesthetic.\n- Clear distinction between enclosed (main building) and semi-enclosed/outdoor (attached volume) spaces.\n- Strong emphasis on geometry and volumetric composition.\n- Integration of natural light through well-placed openings.\n\nREFERENCE STYLE DNA:\nNo reference style analysis was provided.\nUse the selected style preset, user instructions, direct reference images if provided, and image analysis only.\n\nDIRECT REFERENCE IMAGES:\nNo direct reference images were provided.\n\nSTYLE PRESET:\narchdaily_editorial\n\nSTYLE INSTRUCTION:\nArchDaily-style editorial architectural visualization.\nMaterials: realistic, understated and coherent with the source building.\nLighting: natural photographic daylight, balanced exposure, credible shadows.\nLandscape: realistic, refined and not overly decorative.\nMood: professional, documentary, architectural photography.\nPreserve the source geometry exactly.\n\nUSER-SPECIFIC INSTRUCTIONS:\n- General instruction: Materializar esta misma captura sin rediseñar el edificio.\n- Use materials inferred from the selected style preset, reference style DNA, direct reference images and image analysis.\n- Use landscape inferred from the selected style preset, reference style DNA and direct reference images.\n- Use lighting inferred from the selected style preset, reference style DNA and direct reference images.\n- Use mood inferred from the selected style preset, reference style DNA and direct reference images.\n- Must keep: Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición.\n- Must avoid: No añadir piscina, coches, personas, edificios nuevos, nuevas ventanas ni cambios de volumen.\n- No extra free instruction provided.\n\nEXTRA PARAMETERS:\n{\n  \"roofMaterial\": \"\",\n  \"mainFacadeMaterial\": \"\",\n  \"verticalCladdingMaterial\": \"\",\n  \"windowFrames\": \"\",\n  \"glassType\": \"\",\n  \"pavingMaterial\": \"\",\n  \"vegetationDensity\": \"medium\",\n  \"people\": true,\n  \"cars\": false,\n  \"pool\": false,\n  \"timeOfDay\": \"\",\n  \"cameraChangeAllowed\": false,\n  \"geometryChangeAllowed\": false,\n  \"plants\": []\n}\n\nPRIORITY RULE:\n1. Geometry preservation has the highest priority.\n2. Extra free instruction and user-specific material, landscape, lighting, mood and extra parameters override the reference style DNA and selected style preset.\n3. Reference style DNA and direct reference images override the selected style preset for visual mood, material palette, color palette, lighting and atmosphere.\n4. The selected style preset overrides inferred material assumptions from the image analysis.\n5. No style, reference image or user instruction may override geometry preservation unless the user explicitly asks for design changes.\n\nPHOTOREALISTIC MATERIALIZATION REQUIREMENTS:\n- Replace the flat SketchUp viewport look with realistic built materials.\n- Keep all architectural edges, proportions and major lines aligned with the source.\n- Add realistic material texture without altering geometry.\n- Add realistic glass reflections without changing window size or position.\n- Add realistic shadows while respecting the original building form.\n- Remove SketchUp grid, viewport artifacts, wireframe artifacts and default grey shading.\n- Improve surfaces, landscape and atmosphere only where they do not alter the architecture.\n- Keep the same image crop and camera composition.\n- Maintain a believable architectural photography look.\n- Avoid overly stylized AI render aesthetics.\n\nABSOLUTE NEGATIVE INSTRUCTIONS:\n- Do not redesign the house.\n- Do not generate a different building.\n- Do not reinterpret the architecture.\n- Do not change the roof geometry.\n- Do not simplify the roof.\n- Do not alter roof slopes.\n- Do not change roof heights.\n- Do not add dormers.\n- Do not add extra floors.\n- Do not add new wings.\n- Do not add extensions.\n- Do not change the building footprint.\n- Do not move openings.\n- Do not resize windows.\n- Do not resize doors.\n- Do not change facade rhythm.\n- Do not change proportions.\n- Do not change the camera angle.\n- Do not change perspective.\n- Do not crop differently.\n- Do not add unrelated buildings.\n- Do not turn this into a generic AI villa.\n- Do not copy geometry from reference images.\n- Do not copy the reference buildings.\n- Do not add text, labels, logos or watermarks.\n\nAVOID FROM IMAGE ANALYSIS:\n- Adding a swimming pool.\n- Adding cars.\n- Adding people.\n- Adding new buildings or structures not present in the original image.\n- Adding new windows or openings.\n- Any changes to the existing building volumes or massing.\n\nFINAL OUTPUT:\nA photorealistic materialized version of the exact same source architecture, suitable for architectural client presentation."
+}
