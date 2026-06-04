@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "projectId": "project-1780578838425",
+  "createdAt": "2026-06-04T13:13:58.425Z",
+  "renderPath": "RENDERS/projects/project-1780578838425/render_20260604_131358_dylumt.jpg",
+  "metadataPath": "RENDERS/projects/project-1780578838425/metadata_20260604_131358_dylumt.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/project-1780578838425/render_20260604_131358_dylumt.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "render.jpg",
+  "request": null,
+  "analysis": null,
+  "referenceStyle": null,
+  "finalPrompt": null
+}
