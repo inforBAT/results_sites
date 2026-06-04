@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "projectId": "project-1780586246875",
+  "createdAt": "2026-06-04T15:17:26.875Z",
+  "renderPath": "RENDERS/projects/project-1780586246875/render_20260604_151726_k5k1zn.jpg",
+  "metadataPath": "RENDERS/projects/project-1780586246875/metadata_20260604_151726_k5k1zn.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/project-1780586246875/render_20260604_151726_k5k1zn.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "render.jpg",
+  "request": null,
+  "analysis": null,
+  "referenceStyle": null,
+  "finalPrompt": null
+}
