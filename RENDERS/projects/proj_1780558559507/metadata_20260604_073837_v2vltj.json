@@ -1,0 +1,252 @@
+{
+  "ok": true,
+  "projectId": "proj_1780558559507",
+  "createdAt": "2026-06-04T07:38:37.378Z",
+  "renderPath": "RENDERS/projects/proj_1780558559507/render_20260604_073837_v2vltj.jpg",
+  "metadataPath": "RENDERS/projects/proj_1780558559507/metadata_20260604_073837_v2vltj.json",
+  "rawRenderUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/RENDERS/projects/proj_1780558559507/render_20260604_073837_v2vltj.jpg",
+  "imageMimeType": "image/jpeg",
+  "imageFileName": "render.jpeg",
+  "request": {
+    "projectId": "proj_1780558559507",
+    "inputImageUrl": "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780558559507/source_1780558626202.png",
+    "inputType": "sketchup_viewport",
+    "viewType": "facade",
+    "fidelity": "creative",
+    "geometryLock": "ultra_strict",
+    "stylePreset": "collage",
+    "outputResolution": "2K",
+    "userPrompt": "Materializar esta misma captura sin rediseñar el edificio.",
+    "materialPrompt": "",
+    "landscapePrompt": "",
+    "lightingPrompt": "",
+    "mustKeepPrompt": "Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición.",
+    "mustAvoidPrompt": "No añadir piscina, coches, personas, edificios nuevos, nuevas ventanas ni cambios de volumen.",
+    "renderMood": "",
+    "extraPrompt": "",
+    "extraParameters": {
+      "roofMaterial": "",
+      "mainFacadeMaterial": "",
+      "verticalCladdingMaterial": "",
+      "windowFrames": "",
+      "glassType": "",
+      "pavingMaterial": "",
+      "vegetationDensity": "medium",
+      "people": true,
+      "cars": false,
+      "pool": false,
+      "timeOfDay": "",
+      "cameraChangeAllowed": false,
+      "geometryChangeAllowed": false,
+      "plants": []
+    },
+    "referenceImageUrls": [
+      "https://raw.githubusercontent.com/inforBAT/results_sites/main/INPUTS/projects/proj_1780558559507/references/reference_0_1780558627501.png"
+    ]
+  },
+  "analysis": {
+    "sceneSummary": "A long, horizontally oriented contemporary building facade viewed head-on. The building features multiple interconnected volumes with a diverse roofline comprising a projecting single-slope (shed) roof on the left and three distinct sawtooth/shed roof sections along the central and right portions. The facade integrates large transparent openings (windows/sliding doors) with solid wall sections and areas of vertical cladding. Interior shelving is visible through some of the large glass openings, indicating transparent facade elements and interior functions. A small recessed opening is present on the far left. The overall composition suggests a modular and light-focused design.",
+    "camera": {
+      "viewType": "facade",
+      "position": "orthographic_front_elevation",
+      "lens": "standard",
+      "cameraChangeAllowed": false
+    },
+    "geometry": {
+      "massing": [
+        {
+          "shape": "linear_multi_volume",
+          "description": "A elongated, single-story building composed of several distinct but interconnected rectangular volumes. The massing maintains a consistent base line and extends horizontally, with varying roof heights and facade treatments creating distinct segments. Recesses are observed around openings and a projecting roof element on the leftmost volume."
+        }
+      ],
+      "levels": "single_story",
+      "roof": {
+        "type": "mixed",
+        "description": "The leftmost volume features a flat roof section recessed behind a projecting single-slope (shed) roof, angled downwards to the right. The central and right sections of the building feature three prominent sawtooth or shed roof forms. These roofs appear to have a flat or slightly sloped top section, transitioning into a steep, shaded slope that likely faces away from the viewer, suggesting clerestory lighting. The roofline overall is dynamic and varied."
+      },
+      "openings": [
+        {
+          "type": "recessed_rectangular_opening",
+          "location": "far_left_base",
+          "dimensions": "small_vertical",
+          "material_implied": "dark_recess",
+          "notes": "Possibly a small window or utility access."
+        },
+        {
+          "type": "multi_panel_sliding_glass_door_or_window",
+          "location": "left_main_facade",
+          "dimensions": "large_full_height",
+          "notes": "Features internal horizontal shelving units visible through the glass."
+        },
+        {
+          "type": "tall_narrow_recessed_opening",
+          "location": "second_segment_from_left_central",
+          "dimensions": "tall_narrow_vertical",
+          "material_implied": "dark_recess",
+          "notes": "Possibly a door or vertical window."
+        },
+        {
+          "type": "large_rectangular_recessed_window",
+          "location": "third_segment_from_left_central",
+          "dimensions": "large_square_or_horizontal",
+          "material_implied": "dark_recess",
+          "notes": "Set back from the main facade plane."
+        },
+        {
+          "type": "multi_panel_sliding_glass_door_or_window",
+          "location": "fourth_segment_from_left_central",
+          "dimensions": "large_full_height",
+          "notes": "Similar to the left main facade opening, also features internal horizontal shelving units."
+        },
+        {
+          "type": "two_panel_sliding_glass_door_or_window",
+          "location": "far_right_facade",
+          "dimensions": "large_full_height",
+          "notes": "Large transparent opening filling most of the facade segment."
+        }
+      ],
+      "siteContext": [
+        {
+          "type": "ground_plane",
+          "description": "A flat, continuous ground plane extends along the base of the building, indicated by a dashed line."
+        }
+      ]
+    },
+    "handwrittenAnnotations": [],
+    "materialsDetected": [
+      {
+        "element": "main_facade_walls",
+        "inferredMaterial": "light_colored_smooth_render_or_panels",
+        "reasoning": "Represented by white/untextured areas, suggesting a uniform, possibly stucco, concrete, or light panel finish."
+      },
+      {
+        "element": "vertical_cladding_sections",
+        "inferredMaterial": "wood_or_metal_vertical_slats",
+        "reasoning": "Indicated by thin, closely spaced vertical lines. Common materials for this look are wood battens or metal profiles."
+      },
+      {
+        "element": "window_frames",
+        "inferredMaterial": "dark_metal_frames",
+        "reasoning": "Thin dark lines defining the edges of glass panels."
+      },
+      {
+        "element": "glass",
+        "inferredMaterial": "clear_glass",
+        "reasoning": "Transparency is implied by visible interior shelving and general representation of windows."
+      },
+      {
+        "element": "roof_surfaces",
+        "inferredMaterial": "dark_membrane_or_metal_seam_roofing",
+        "reasoning": "No specific texture, but typical for modern flat/shed/sawtooth roofs to be membrane or standing seam metal."
+      },
+      {
+        "element": "interior_shelving",
+        "inferredMaterial": "white_or_light_wood_shelves",
+        "reasoning": "Visible through glass, depicted as solid horizontal elements."
+      }
+    ],
+    "designIntent": [
+      "Modern/Contemporary architectural aesthetic with clean lines.",
+      "Emphasis on natural light and connection to the outdoors through large transparent openings.",
+      "Modular facade composition with a rhythm of solid, clad, and glazed sections.",
+      "Dynamic roofline providing architectural interest and potentially optimizing for light or solar gain (sawtooth roofs)."
+    ],
+    "preserve": [
+      "Exact volumetry (building volumes)",
+      "Exact roof forms and features",
+      "Exact placement and proportion of openings (windows, doors)",
+      "Camera perspective and focal length (orthographic facade view)",
+      "Overall proportions of the building elements",
+      "Composition of the facade"
+    ],
+    "avoid": [
+      "Adding a pool",
+      "Adding cars",
+      "Adding people",
+      "Adding new buildings in the scene",
+      "Adding new windows or modifying existing ones",
+      "Changes to the existing building's volume"
+    ],
+    "ambiguities": [
+      "Exact materials for walls, cladding, and roof are not specified and will be inferred based on modern architectural aesthetics and common practice for a 'collage' style.",
+      "The depth of recesses and projections is implied by shading but not precisely defined.",
+      "The function of the small recessed opening on the far left is unclear (e.g., small window, vent, utility access)."
+    ],
+    "extra_parameters": {
+      "roofMaterial": "",
+      "mainFacadeMaterial": "",
+      "verticalCladdingMaterial": "",
+      "windowFrames": "",
+      "glassType": "",
+      "pavingMaterial": "",
+      "vegetationDensity": "medium",
+      "people": false,
+      "cars": false,
+      "pool": false,
+      "timeOfDay": "",
+      "cameraChangeAllowed": false,
+      "geometryChangeAllowed": false,
+      "plants": []
+    }
+  },
+  "referenceStyle": {
+    "styleSummary": "A photorealistic architectural visualization style characterized by a modern, inviting aesthetic, using a rich material palette of dark vertical paneling, expansive glazing, and warm interior wood tones. Lighting emphasizes a golden hour/dusk scenario with warm, glowing interior lights spilling into the exterior, creating an active and sophisticated atmosphere with a strong human element.",
+    "referenceCount": 1,
+    "commonMaterialPalette": [
+      "Dark vertical slat panels (wood or composite)",
+      "Darker grey/concrete panels",
+      "Clear, highly reflective glass",
+      "Light-toned wood (interior flooring, stairs, wall accents)",
+      "Light grey/off-white concrete/stone (interior structural elements)",
+      "Subtle metal accents (railings, window frames)",
+      "Manicured grass",
+      "Deciduous trees with sparse foliage"
+    ],
+    "commonColorPalette": [
+      "Warm browns and dark greys (dominant on building exterior)",
+      "Bright, warm oranges and yellows (interior lighting)",
+      "Pale blue to deep grey (sky, reflections)",
+      "Clear, reflective blues and greens (glass reflections)",
+      "Earthy greens (landscaping)",
+      "Muted, diverse tones for human figures"
+    ],
+    "lightingStyle": "Dusk or early evening lighting, where natural ambient light is fading, and interior artificial lighting becomes the dominant and most impactful light source. The interior lights cast a strong, warm, golden glow outwards, illuminating the building's interior spaces and creating a welcoming beacon. Exterior lighting is soft, ambient, and diffuse, with no harsh shadows.",
+    "landscapeStyle": "Contemporary and minimalist, featuring neatly maintained grass areas and evenly spaced, mature deciduous trees with a relatively open canopy. Pathways are subtle and integrated, focusing on pedestrian access. The landscaping complements the modern architecture without being overly ornate, maintaining a clean aesthetic.",
+    "atmosphere": "Inviting, active, vibrant, and sophisticated. The glowing interior lights and numerous, dynamically posed people create a sense of liveliness and community. There is an overall feeling of warmth and welcome, suggesting a bustling hub of activity within a modern, well-designed environment.",
+    "renderingTechnique": "Highly photorealistic rendering with meticulous attention to material properties, reflections, and light interaction. Textures are detailed and realistic, contributing to a believable and immersive scene. The overall image quality is sharp and clean, with a balanced exposure that handles both bright interior lights and subtle exterior ambient light effectively.",
+    "textureDetail": "High level of texture detail is evident across all surfaces. The vertical slat panels show subtle grain and variation, glass exhibits realistic reflections and transparency, and interior surfaces like wood and concrete have distinct, fine textures. The resolution and quality of textures contribute significantly to the photorealism.",
+    "compositionNotes": [
+      "Dynamic camera angles often showcase multiple facades of the building.",
+      "Emphasis on the transparency of the building, revealing illuminated interior activity.",
+      "Strategic inclusion of diverse human figures for scale, life, and narrative.",
+      "Foreground elements (people, subtle landscaping) frame the main architectural subject.",
+      "Balanced composition, often using vertical elements of the building and trees to guide the eye.",
+      "Background buildings provide urban context without distracting from the main subject."
+    ],
+    "applyToTargetRender": [
+      "Employ a similar dusk/early evening lighting setup with warm, prominent interior lights.",
+      "Utilize a material palette that contrasts dark, textured vertical elements with large, clear glass facades.",
+      "Integrate minimalist, contemporary landscaping with selective tree placement.",
+      "Populate the scene with diverse, active human figures to convey life and scale.",
+      "Aim for a photorealistic rendering quality with high texture detail and realistic light interaction.",
+      "Ensure glass materials have accurate reflections and transparency.",
+      "Focus on strong geometric forms and vertical elements in architectural details."
+    ],
+    "avoidCopying": [
+      "The specific design or form of the buildings.",
+      "Exact architectural features or details.",
+      "Specific objects, furniture, or fixtures.",
+      "Any logos or text.",
+      "Specific people or their poses.",
+      "The exact layout of the landscape."
+    ],
+    "doNotCopyFromReferences": [
+      "Building structure and facade patterns.",
+      "Interior design elements like stairs, reception desks, seating arrangements.",
+      "Any visible signage or branding.",
+      "The unique profiles of individuals or groups of people.",
+      "Specific tree species or their exact placement."
+    ]
+  },
+  "finalPrompt": "You are an expert architectural visualization artist specializing in strict SketchUp-to-render materialization.\n\nTASK:\nConvert the provided SketchUp viewport screenshot into a photorealistic architectural render.\n\nThis is an image-to-image transformation task.\nThis is NOT text-to-image generation.\nThis is NOT a redesign.\nThis is NOT concept design.\nThis is NOT a new building.\n\nThe input source image is the source of truth for geometry.\nAny reference images are style references only.\n\nGEOMETRY LOCK MODE: ULTRA STRICT\n\nThis is a strict image-to-image materialization task.\n\nThe source image must be treated as a locked architectural underlay.\nThe generated image must preserve 95-100% of the source geometry.\n\nAbsolutely preserve:\n- silhouette\n- roof geometry\n- roof slopes\n- roof edges\n- roof overhangs\n- roof heights\n- facade proportions\n- facade rhythm\n- window positions\n- window sizes\n- door positions\n- door sizes\n- wall planes\n- columns\n- recesses\n- projections\n- vertical facade rhythms\n- paving geometry\n- foreground geometry\n- site layout\n- camera angle\n- lens/perspective\n- crop/composition\n\nOnly change:\n- material realism\n- surface texture\n- lighting\n- shadows\n- glass reflections\n- vegetation\n- atmospheric realism\n- removal of SketchUp viewport artifacts\n\nSOURCE IMAGE ROLE:\nThe source image defines the exact geometry, camera, perspective, massing, roof shape, roof slopes, openings, facade rhythm, site layout, crop and proportions.\n\nThe generated render must align with the source image like a photorealistic overlay.\n\nSCENE SUMMARY FROM IMAGE ANALYSIS:\nA long, horizontally oriented contemporary building facade viewed head-on. The building features multiple interconnected volumes with a diverse roofline comprising a projecting single-slope (shed) roof on the left and three distinct sawtooth/shed roof sections along the central and right portions. The facade integrates large transparent openings (windows/sliding doors) with solid wall sections and areas of vertical cladding. Interior shelving is visible through some of the large glass openings, indicating transparent facade elements and interior functions. A small recessed opening is present on the far left. The overall composition suggests a modular and light-focused design.\n\nCAMERA FROM IMAGE ANALYSIS:\n[object Object]\n\nGEOMETRY TO PRESERVE FROM IMAGE ANALYSIS:\n- Exact volumetry (building volumes)\n- Exact roof forms and features\n- Exact placement and proportion of openings (windows, doors)\n- Camera perspective and focal length (orthographic facade view)\n- Overall proportions of the building elements\n- Composition of the facade\n\nMATERIALS DETECTED FROM IMAGE:\n- {\"element\":\"main_facade_walls\",\"inferredMaterial\":\"light_colored_smooth_render_or_panels\",\"reasoning\":\"Represented by white/untextured areas, suggesting a uniform, possibly stucco, concrete, or light panel finish.\"}\n- {\"element\":\"vertical_cladding_sections\",\"inferredMaterial\":\"wood_or_metal_vertical_slats\",\"reasoning\":\"Indicated by thin, closely spaced vertical lines. Common materials for this look are wood battens or metal profiles.\"}\n- {\"element\":\"window_frames\",\"inferredMaterial\":\"dark_metal_frames\",\"reasoning\":\"Thin dark lines defining the edges of glass panels.\"}\n- {\"element\":\"glass\",\"inferredMaterial\":\"clear_glass\",\"reasoning\":\"Transparency is implied by visible interior shelving and general representation of windows.\"}\n- {\"element\":\"roof_surfaces\",\"inferredMaterial\":\"dark_membrane_or_metal_seam_roofing\",\"reasoning\":\"No specific texture, but typical for modern flat/shed/sawtooth roofs to be membrane or standing seam metal.\"}\n- {\"element\":\"interior_shelving\",\"inferredMaterial\":\"white_or_light_wood_shelves\",\"reasoning\":\"Visible through glass, depicted as solid horizontal elements.\"}\n\nDESIGN INTENT FROM IMAGE ANALYSIS:\n- Modern/Contemporary architectural aesthetic with clean lines.\n- Emphasis on natural light and connection to the outdoors through large transparent openings.\n- Modular facade composition with a rhythm of solid, clad, and glazed sections.\n- Dynamic roofline providing architectural interest and potentially optimizing for light or solar gain (sawtooth roofs).\n\nREFERENCE STYLE DNA:\nStyle summary:\nA photorealistic architectural visualization style characterized by a modern, inviting aesthetic, using a rich material palette of dark vertical paneling, expansive glazing, and warm interior wood tones. Lighting emphasizes a golden hour/dusk scenario with warm, glowing interior lights spilling into the exterior, creating an active and sophisticated atmosphere with a strong human element.\n\nCommon material palette:\n- Dark vertical slat panels (wood or composite)\n- Darker grey/concrete panels\n- Clear, highly reflective glass\n- Light-toned wood (interior flooring, stairs, wall accents)\n- Light grey/off-white concrete/stone (interior structural elements)\n- Subtle metal accents (railings, window frames)\n- Manicured grass\n- Deciduous trees with sparse foliage\n\nCommon color palette:\n- Warm browns and dark greys (dominant on building exterior)\n- Bright, warm oranges and yellows (interior lighting)\n- Pale blue to deep grey (sky, reflections)\n- Clear, reflective blues and greens (glass reflections)\n- Earthy greens (landscaping)\n- Muted, diverse tones for human figures\n\nLighting style:\nDusk or early evening lighting, where natural ambient light is fading, and interior artificial lighting becomes the dominant and most impactful light source. The interior lights cast a strong, warm, golden glow outwards, illuminating the building's interior spaces and creating a welcoming beacon. Exterior lighting is soft, ambient, and diffuse, with no harsh shadows.\n\nLandscape style:\nContemporary and minimalist, featuring neatly maintained grass areas and evenly spaced, mature deciduous trees with a relatively open canopy. Pathways are subtle and integrated, focusing on pedestrian access. The landscaping complements the modern architecture without being overly ornate, maintaining a clean aesthetic.\n\nAtmosphere:\nInviting, active, vibrant, and sophisticated. The glowing interior lights and numerous, dynamically posed people create a sense of liveliness and community. There is an overall feeling of warmth and welcome, suggesting a bustling hub of activity within a modern, well-designed environment.\n\nRendering technique:\nHighly photorealistic rendering with meticulous attention to material properties, reflections, and light interaction. Textures are detailed and realistic, contributing to a believable and immersive scene. The overall image quality is sharp and clean, with a balanced exposure that handles both bright interior lights and subtle exterior ambient light effectively.\n\nTexture detail:\nHigh level of texture detail is evident across all surfaces. The vertical slat panels show subtle grain and variation, glass exhibits realistic reflections and transparency, and interior surfaces like wood and concrete have distinct, fine textures. The resolution and quality of textures contribute significantly to the photorealism.\n\nComposition notes:\n- Dynamic camera angles often showcase multiple facades of the building.\n- Emphasis on the transparency of the building, revealing illuminated interior activity.\n- Strategic inclusion of diverse human figures for scale, life, and narrative.\n- Foreground elements (people, subtle landscaping) frame the main architectural subject.\n- Balanced composition, often using vertical elements of the building and trees to guide the eye.\n- Background buildings provide urban context without distracting from the main subject.\n\nApply to target render:\n- Employ a similar dusk/early evening lighting setup with warm, prominent interior lights.\n- Utilize a material palette that contrasts dark, textured vertical elements with large, clear glass facades.\n- Integrate minimalist, contemporary landscaping with selective tree placement.\n- Populate the scene with diverse, active human figures to convey life and scale.\n- Aim for a photorealistic rendering quality with high texture detail and realistic light interaction.\n- Ensure glass materials have accurate reflections and transparency.\n- Focus on strong geometric forms and vertical elements in architectural details.\n\nAvoid copying:\n- The specific design or form of the buildings.\n- Exact architectural features or details.\n- Specific objects, furniture, or fixtures.\n- Any logos or text.\n- Specific people or their poses.\n- The exact layout of the landscape.\n\nDo not copy from references:\n- Building structure and facade patterns.\n- Interior design elements like stairs, reception desks, seating arrangements.\n- Any visible signage or branding.\n- The unique profiles of individuals or groups of people.\n- Specific tree species or their exact placement.\n\nREFERENCE STYLE APPLICATION RULES:\n- Apply only the visual mood, material palette, color palette, lighting style, atmosphere, texture realism and rendering technique from the reference image set.\n- Use the reference images as STYLE ONLY.\n- Do not copy the reference building geometry.\n- Do not copy the reference building layout.\n- Do not copy exact objects, furniture, people, cars, logos, signage, text, artwork or decorative elements.\n- Do not change the target building geometry to match the references.\n- The SketchUp source image remains the only geometry source of truth.\n\nDIRECT REFERENCE IMAGES:\nThe edit model will also receive 1 reference image(s) directly as additional image inputs.\n\nThese reference image binary fields are expected:\n- reference_0\n\nUse these direct reference images only for:\n- material mood\n- color palette\n- lighting\n- atmosphere\n- texture quality\n- rendering style\n- landscape mood\n\nDo NOT use the direct reference images for:\n- target building geometry\n- roof shape\n- facade layout\n- window positions\n- proportions\n- camera angle\n- added volumes\n- copying exact reference buildings\n\nThe source SketchUp image remains the only geometry source of truth.\n\nSTYLE PRESET:\ncollage\n\nSTYLE INSTRUCTION:\nArchitectural collage style.\nRefined composition, cutout vegetation, subtle paper textures, architectural presentation-board aesthetic.\nPreserve the source geometry and viewpoint.\n\nUSER-SPECIFIC INSTRUCTIONS:\n- General instruction: Materializar esta misma captura sin rediseñar el edificio.\n- Use materials inferred from the selected style preset, reference style DNA, direct reference images and image analysis.\n- Use landscape inferred from the selected style preset, reference style DNA and direct reference images.\n- Use lighting inferred from the selected style preset, reference style DNA and direct reference images.\n- Use mood inferred from the selected style preset, reference style DNA and direct reference images.\n- Must keep: Mantener exactamente volumetría, cubiertas, huecos, cámara, proporciones y composición.\n- Must avoid: No añadir piscina, coches, personas, edificios nuevos, nuevas ventanas ni cambios de volumen.\n- No extra free instruction provided.\n\nEXTRA PARAMETERS:\n{\n  \"roofMaterial\": \"\",\n  \"mainFacadeMaterial\": \"\",\n  \"verticalCladdingMaterial\": \"\",\n  \"windowFrames\": \"\",\n  \"glassType\": \"\",\n  \"pavingMaterial\": \"\",\n  \"vegetationDensity\": \"medium\",\n  \"people\": true,\n  \"cars\": false,\n  \"pool\": false,\n  \"timeOfDay\": \"\",\n  \"cameraChangeAllowed\": false,\n  \"geometryChangeAllowed\": false,\n  \"plants\": []\n}\n\nPRIORITY RULE:\n1. Geometry preservation has the highest priority.\n2. Extra free instruction and user-specific material, landscape, lighting, mood and extra parameters override the reference style DNA and selected style preset.\n3. Reference style DNA and direct reference images override the selected style preset for visual mood, material palette, color palette, lighting and atmosphere.\n4. The selected style preset overrides inferred material assumptions from the image analysis.\n5. No style, reference image or user instruction may override geometry preservation unless the user explicitly asks for design changes.\n\nPHOTOREALISTIC MATERIALIZATION REQUIREMENTS:\n- Replace the flat SketchUp viewport look with realistic built materials.\n- Keep all architectural edges, proportions and major lines aligned with the source.\n- Add realistic material texture without altering geometry.\n- Add realistic glass reflections without changing window size or position.\n- Add realistic shadows while respecting the original building form.\n- Remove SketchUp grid, viewport artifacts, wireframe artifacts and default grey shading.\n- Improve surfaces, landscape and atmosphere only where they do not alter the architecture.\n- Keep the same image crop and camera composition.\n- Maintain a believable architectural photography look.\n- Avoid overly stylized AI render aesthetics.\n\nABSOLUTE NEGATIVE INSTRUCTIONS:\n- Do not redesign the house.\n- Do not generate a different building.\n- Do not reinterpret the architecture.\n- Do not change the roof geometry.\n- Do not simplify the roof.\n- Do not alter roof slopes.\n- Do not change roof heights.\n- Do not add dormers.\n- Do not add extra floors.\n- Do not add new wings.\n- Do not add extensions.\n- Do not change the building footprint.\n- Do not move openings.\n- Do not resize windows.\n- Do not resize doors.\n- Do not change facade rhythm.\n- Do not change proportions.\n- Do not change the camera angle.\n- Do not change perspective.\n- Do not crop differently.\n- Do not add unrelated buildings.\n- Do not turn this into a generic AI villa.\n- Do not copy geometry from reference images.\n- Do not copy the reference buildings.\n- Do not add text, labels, logos or watermarks.\n\nAVOID FROM IMAGE ANALYSIS:\n- Adding a pool\n- Adding cars\n- Adding people\n- Adding new buildings in the scene\n- Adding new windows or modifying existing ones\n- Changes to the existing building's volume\n\nFINAL OUTPUT:\nA photorealistic materialized version of the exact same source architecture, suitable for architectural client presentation."
+}
